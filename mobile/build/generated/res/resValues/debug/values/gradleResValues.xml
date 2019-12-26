@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: debug -->
+    <string name="W_a_key" translatable="false">a_value</string>
+    <string name="W_example_path_asset" translatable="false">/ ASSET </string>
+    <string name="W_example_path_datamap" translatable="false">/DATAMAP</string>
+    <string name="W_example_path_text" translatable="false">/TEXT</string>
+    <string name="W_mainactivity" translatable="false">MainActivity</string>
+    <string name="W_path_acknowledge" translatable="false">/ACKNOWLEDGE</string>
+    <string name="W_path_start_activity" translatable="false">/START_ACTIVITY</string>
+    <string name="W_profile_key" translatable="false">profile_key</string>
+    <string name="W_profile_path" translatable="false">/PROFILE</string>
+    <string name="W_some_other_key" translatable="false">some_other_value</string>
+
+</resources>
