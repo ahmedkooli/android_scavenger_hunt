@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sports Tracker</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="smartwatch">Smartwatch</string>
+    <string name="hr_belt">HR belt</string>
+    <string name="image_activity">Image activity</string>
+    <string name="running">Running</string>
+    <string name="cycling">Cycling</string>
+    <string name="skiing">Skiing</string>
+    <string name="climbing">Climbing</string>
+    <string name="user_profile_image">User profile image</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="username_text">Username:</string>
+    <string name="password_text">Password:</string>
+    <string name="clear_form">Clear form</string>
+    <string name="delete_history">Delete history</string>
+    <string name="save_profile">Save profile</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="not_registered_yet">You are not registered yet!</string>
+
+    <string name="tab_title_new_recording">New Recording</string>
+    <string name="tab_title_my_profile">My Profile</string>
+    <string name="tab_title_history">My History</string>
+    <string name="registration_success">Registration succesful</string>
+    <string name="registration_failed">Registration failed. Please try again later.</string>
+    <string name="photo_upload_failed">Failed uploading photo</string>
+    <string name="missing_picture">You need to choose a profile picture!</string>
+    <string name="save_recording_success">New recording saved successfully!</string>
+    <string name="start_string">Let\'s start the game!</string>
+    <string name="action_settings">action menu yo</string>
+</resources>
