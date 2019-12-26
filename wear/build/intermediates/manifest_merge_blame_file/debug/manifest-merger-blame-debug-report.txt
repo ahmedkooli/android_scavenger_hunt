@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ch.epfl.esl.sportstracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.type.watch" />
+11-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:5:19-61
+12
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:7:5-68
+13-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:7:22-65
+14
+15    <application
+15-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:9:5-53:19
+16        android:allowBackup="true"
+16-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\50b2d82c8121d0d399c2a796a5c582ef\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_logo"
+19-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:11:9-39
+20        android:label="@string/app_name"
+20-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:12:9-41
+21        android:supportsRtl="true"
+21-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:13:9-35
+22        android:theme="@android:style/Theme.DeviceDefault" >
+22-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:14:9-59
+23        <uses-library
+23-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:15:9-17:39
+24            android:name="com.google.android.wearable"
+24-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:16:13-55
+25            android:required="true" />
+25-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:17:13-36
+26        <!--
+27               Set to true if your app is Standalone, that is, it does not require the handheld
+28               app to run.
+29        -->
+30        <meta-data
+30-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:22:9-24:36
+31            android:name="com.google.android.wearable.standalone"
+31-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:23:13-66
+32            android:value="true" />
+32-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:24:13-33
+33
+34        <activity
+34-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:26:9-34:20
+35            android:name="ch.epfl.esl.sportstracker.MainActivity"
+35-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:27:13-41
+36            android:label="@string/app_name" >
+36-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:28:13-45
+37            <intent-filter>
+37-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:29:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:30:17-69
+38-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:32:17-77
+40-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service android:name="ch.epfl.esl.sportstracker.WearService" >
+44-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:36:9-51:19
+44-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:36:18-45
+45            <intent-filter>
+45-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:37:13-43:29
+46                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+46-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:38:17-87
+46-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:38:25-84
+47
+48                <data
+48-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:39:17-42:45
+49                    android:host="*"
+49-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:40:21-37
+50                    android:pathPrefix=""
+50-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:41:21-42
+51                    android:scheme="wear" />
+51-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:42:21-42
+52            </intent-filter>
+53            <intent-filter>
+53-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:44:13-50:29
+54                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+54-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:45:17-91
+54-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:45:25-88
+55
+56                <data
+56-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:39:17-42:45
+57                    android:host="*"
+57-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:40:21-37
+58                    android:pathPrefix=""
+58-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:41:21-42
+59                    android:scheme="wear" />
+59-->C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\wear\src\main\AndroidManifest.xml:42:21-42
+60            </intent-filter>
+61        </service>
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\d08b4d2df10b0afa4d8d201c4a2531af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\d08b4d2df10b0afa4d8d201c4a2531af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\d08b4d2df10b0afa4d8d201c4a2531af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>
