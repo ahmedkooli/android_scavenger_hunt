@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\mobile\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\ahmed\Documents\EPFL\MA1\Lab on Apps Development\sol5project-sports-tracker\mobile\src\debug\jniLibs"/></dataSet></merger>
