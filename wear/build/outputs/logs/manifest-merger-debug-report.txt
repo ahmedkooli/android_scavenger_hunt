@@ -1,245 +1,245 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:2:1-15:12
-MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e410416b71e3b622aa9f853806589604/percentlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/da04a9af452b731220aa7e9d93fdb7ed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.wear:wear:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c972cef4cb8c4c565b3efe4651a88058/wear-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/f944333db4274d4ea623495f13f373b8/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9e200503cfee2123d1209b05274e4189/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c5a5ddc61ca53058acc04464a41a4bc0/play-services-wearable-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/544f84cb8c2fc30cce4cc48490d587fa/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6af925ba56fe8b1151f0868dcec313ca/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5c5b2b323d574fc7578599e3f8b4deeb/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c4268af53358e390528a0bf99f887069/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/72fdac72a98d947a3e7157aa81d8541a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/f3fed63d7c59df7459478ced7cbd1826/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b7c6e5df6376e37adf339d02da153a7a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5cdc4591d51e42480094df646705c7fb/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/76bac00f1d9056c5420082eec32e7eb8/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/21eb34ff07aca1639382c54ffc278c49/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e848559e9e413f936519f3007c0e372c/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/ee2b58c422ae9cb28039f3021902b7fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e57dc46966361931dce3f6529c8d93e5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9a3f17e03d7871cdac7b14071295d3cc/core-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/340a2955e2e6d916779b92fcb6552c40/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/d85e8174ffaafa0d385a18378bd7d81c/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/48202995eaaaa1c0a70938a44e8c56ea/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/4b051c84401bc59186eb473ea96d791e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/eef03ffdaeb8c23eb3f6073ff863a94c/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/82a936112cb4ba2f3162f463a1065e7f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c6277fa15cf61a97597f68c20313dcf3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e7b134d520a1a5a9b666607cbd5bd374/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/03c200578e1b213fedba5c553d8e035b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5b734c211fd24f39cdfbc07be9048a3a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6fd8a412c79fee30ef7382d67aeb965c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e410416b71e3b622aa9f853806589604\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\da04a9af452b731220aa7e9d93fdb7ed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear:wear:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c972cef4cb8c4c565b3efe4651a88058\wear-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\f944333db4274d4ea623495f13f373b8\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\544f84cb8c2fc30cce4cc48490d587fa\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6af925ba56fe8b1151f0868dcec313ca\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5c5b2b323d574fc7578599e3f8b4deeb\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c4268af53358e390528a0bf99f887069\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\72fdac72a98d947a3e7157aa81d8541a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\f3fed63d7c59df7459478ced7cbd1826\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\b7c6e5df6376e37adf339d02da153a7a\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5cdc4591d51e42480094df646705c7fb\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\76bac00f1d9056c5420082eec32e7eb8\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\21eb34ff07aca1639382c54ffc278c49\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e848559e9e413f936519f3007c0e372c\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee2b58c422ae9cb28039f3021902b7fd\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e57dc46966361931dce3f6529c8d93e5\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\340a2955e2e6d916779b92fcb6552c40\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\d85e8174ffaafa0d385a18378bd7d81c\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48202995eaaaa1c0a70938a44e8c56ea\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\4b051c84401bc59186eb473ea96d791e\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\eef03ffdaeb8c23eb3f6073ff863a94c\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\82a936112cb4ba2f3162f463a1065e7f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c6277fa15cf61a97597f68c20313dcf3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e7b134d520a1a5a9b666607cbd5bd374\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\03c200578e1b213fedba5c553d8e035b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5b734c211fd24f39cdfbc07be9048a3a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6fd8a412c79fee30ef7382d67aeb965c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:1-55:12
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.type.watch
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:5:5-64
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:5:5-64
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:5:19-61
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:5:19-61
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:7:5-68
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:7:5-68
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:7:22-65
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:7:22-65
 application
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:9:5-53:19
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:9:5-13:19
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:9:5-13:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9e200503cfee2123d1209b05274e4189/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9e200503cfee2123d1209b05274e4189/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c5a5ddc61ca53058acc04464a41a4bc0/play-services-wearable-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c5a5ddc61ca53058acc04464a41a4bc0/play-services-wearable-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6af925ba56fe8b1151f0868dcec313ca/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6af925ba56fe8b1151f0868dcec313ca/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9a3f17e03d7871cdac7b14071295d3cc/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9a3f17e03d7871cdac7b14071295d3cc/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/340a2955e2e6d916779b92fcb6552c40/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/340a2955e2e6d916779b92fcb6552c40/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:9:5-53:19
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6af925ba56fe8b1151f0868dcec313ca\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6af925ba56fe8b1151f0868dcec313ca\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\340a2955e2e6d916779b92fcb6552c40\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\340a2955e2e6d916779b92fcb6552c40\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9a3f17e03d7871cdac7b14071295d3cc/core-1.0.0/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:11:9-39
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:11:9-39
 	android:allowBackup
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:14:9-59
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:14:9-59
 uses-library#com.google.android.wearable
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:15:9-17:39
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:10:9-12:40
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:10:9-12:40
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:15:9-17:39
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:10:9-12:40
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:10:9-12:40
 	android:required
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:16:13-55
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:16:13-55
 meta-data#com.google.android.wearable.standalone
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:22:9-24:36
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:22:9-24:36
 	android:value
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:24:13-33
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:24:13-33
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:23:13-66
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:23:13-66
 activity#ch.epfl.esl.sportstracker.MainActivity
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:26:9-34:20
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:26:9-34:20
 	android:label
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:28:13-45
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:28:13-45
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:27:13-41
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:30:17-69
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:32:17-77
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:32:27-74
 service#ch.epfl.esl.sportstracker.WearService
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:36:9-51:19
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:36:9-51:19
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:36:18-45
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:36:18-45
 intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:+data:scheme:wear
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:37:13-43:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:13-43:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:38:17-87
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:17-87
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:38:25-84
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:25-84
 data
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:39:17-42:45
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:17-42:45
 	android:host
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:40:21-37
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:21-37
 	android:scheme
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:42:21-42
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
 	android:pathPrefix
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:41:21-42
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-42
 intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:+data:scheme:wear
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:44:13-50:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:44:13-50:29
 action#com.google.android.gms.wearable.MESSAGE_RECEIVED
-ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:45:17-91
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:17-91
 	android:name
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml:45:25-88
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:25-88
 uses-sdk
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.support:wearable:2.5.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/8b1cdff1e7b2fb68e101eb0220172b88/jetified-wearable-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e410416b71e3b622aa9f853806589604/percentlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e410416b71e3b622aa9f853806589604/percentlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/da04a9af452b731220aa7e9d93fdb7ed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/da04a9af452b731220aa7e9d93fdb7ed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.wear:wear:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c972cef4cb8c4c565b3efe4651a88058/wear-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.wear:wear:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c972cef4cb8c4c565b3efe4651a88058/wear-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/f944333db4274d4ea623495f13f373b8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/f944333db4274d4ea623495f13f373b8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9e200503cfee2123d1209b05274e4189/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9e200503cfee2123d1209b05274e4189/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c5a5ddc61ca53058acc04464a41a4bc0/play-services-wearable-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-wearable:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c5a5ddc61ca53058acc04464a41a4bc0/play-services-wearable-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/544f84cb8c2fc30cce4cc48490d587fa/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/544f84cb8c2fc30cce4cc48490d587fa/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6af925ba56fe8b1151f0868dcec313ca/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6af925ba56fe8b1151f0868dcec313ca/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5c5b2b323d574fc7578599e3f8b4deeb/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5c5b2b323d574fc7578599e3f8b4deeb/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c4268af53358e390528a0bf99f887069/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c4268af53358e390528a0bf99f887069/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/72fdac72a98d947a3e7157aa81d8541a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/72fdac72a98d947a3e7157aa81d8541a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/f3fed63d7c59df7459478ced7cbd1826/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/f3fed63d7c59df7459478ced7cbd1826/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b7c6e5df6376e37adf339d02da153a7a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b7c6e5df6376e37adf339d02da153a7a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5cdc4591d51e42480094df646705c7fb/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5cdc4591d51e42480094df646705c7fb/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/76bac00f1d9056c5420082eec32e7eb8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/76bac00f1d9056c5420082eec32e7eb8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/21eb34ff07aca1639382c54ffc278c49/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/21eb34ff07aca1639382c54ffc278c49/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e848559e9e413f936519f3007c0e372c/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e848559e9e413f936519f3007c0e372c/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/ee2b58c422ae9cb28039f3021902b7fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/ee2b58c422ae9cb28039f3021902b7fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e57dc46966361931dce3f6529c8d93e5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e57dc46966361931dce3f6529c8d93e5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9a3f17e03d7871cdac7b14071295d3cc/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/9a3f17e03d7871cdac7b14071295d3cc/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/340a2955e2e6d916779b92fcb6552c40/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/340a2955e2e6d916779b92fcb6552c40/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/d85e8174ffaafa0d385a18378bd7d81c/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/d85e8174ffaafa0d385a18378bd7d81c/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/48202995eaaaa1c0a70938a44e8c56ea/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/48202995eaaaa1c0a70938a44e8c56ea/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/4b051c84401bc59186eb473ea96d791e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/4b051c84401bc59186eb473ea96d791e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/eef03ffdaeb8c23eb3f6073ff863a94c/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/eef03ffdaeb8c23eb3f6073ff863a94c/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/82a936112cb4ba2f3162f463a1065e7f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/82a936112cb4ba2f3162f463a1065e7f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c6277fa15cf61a97597f68c20313dcf3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/c6277fa15cf61a97597f68c20313dcf3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e7b134d520a1a5a9b666607cbd5bd374/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/e7b134d520a1a5a9b666607cbd5bd374/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/03c200578e1b213fedba5c553d8e035b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/03c200578e1b213fedba5c553d8e035b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5b734c211fd24f39cdfbc07be9048a3a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/5b734c211fd24f39cdfbc07be9048a3a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6fd8a412c79fee30ef7382d67aeb965c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/6fd8a412c79fee30ef7382d67aeb965c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e410416b71e3b622aa9f853806589604\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e410416b71e3b622aa9f853806589604\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\da04a9af452b731220aa7e9d93fdb7ed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\da04a9af452b731220aa7e9d93fdb7ed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c972cef4cb8c4c565b3efe4651a88058\wear-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c972cef4cb8c4c565b3efe4651a88058\wear-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\f944333db4274d4ea623495f13f373b8\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\f944333db4274d4ea623495f13f373b8\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\544f84cb8c2fc30cce4cc48490d587fa\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\544f84cb8c2fc30cce4cc48490d587fa\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6af925ba56fe8b1151f0868dcec313ca\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6af925ba56fe8b1151f0868dcec313ca\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5c5b2b323d574fc7578599e3f8b4deeb\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5c5b2b323d574fc7578599e3f8b4deeb\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c4268af53358e390528a0bf99f887069\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c4268af53358e390528a0bf99f887069\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\72fdac72a98d947a3e7157aa81d8541a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\72fdac72a98d947a3e7157aa81d8541a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\f3fed63d7c59df7459478ced7cbd1826\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\f3fed63d7c59df7459478ced7cbd1826\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\b7c6e5df6376e37adf339d02da153a7a\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\b7c6e5df6376e37adf339d02da153a7a\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5cdc4591d51e42480094df646705c7fb\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5cdc4591d51e42480094df646705c7fb\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\76bac00f1d9056c5420082eec32e7eb8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\76bac00f1d9056c5420082eec32e7eb8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\21eb34ff07aca1639382c54ffc278c49\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\21eb34ff07aca1639382c54ffc278c49\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e848559e9e413f936519f3007c0e372c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e848559e9e413f936519f3007c0e372c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee2b58c422ae9cb28039f3021902b7fd\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee2b58c422ae9cb28039f3021902b7fd\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e57dc46966361931dce3f6529c8d93e5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e57dc46966361931dce3f6529c8d93e5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\340a2955e2e6d916779b92fcb6552c40\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\340a2955e2e6d916779b92fcb6552c40\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\d85e8174ffaafa0d385a18378bd7d81c\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\d85e8174ffaafa0d385a18378bd7d81c\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48202995eaaaa1c0a70938a44e8c56ea\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48202995eaaaa1c0a70938a44e8c56ea\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\4b051c84401bc59186eb473ea96d791e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\4b051c84401bc59186eb473ea96d791e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\eef03ffdaeb8c23eb3f6073ff863a94c\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\eef03ffdaeb8c23eb3f6073ff863a94c\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\82a936112cb4ba2f3162f463a1065e7f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\82a936112cb4ba2f3162f463a1065e7f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c6277fa15cf61a97597f68c20313dcf3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c6277fa15cf61a97597f68c20313dcf3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e7b134d520a1a5a9b666607cbd5bd374\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e7b134d520a1a5a9b666607cbd5bd374\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\03c200578e1b213fedba5c553d8e035b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\03c200578e1b213fedba5c553d8e035b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5b734c211fd24f39cdfbc07be9048a3a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5b734c211fd24f39cdfbc07be9048a3a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6fd8a412c79fee30ef7382d67aeb965c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6fd8a412c79fee30ef7382d67aeb965c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		ADDED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
-		INJECTED from /Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/wear/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/293b7d23f042aa131913b4991afa5f9d/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/b0681a65351f9850901b8284d8839ad4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
