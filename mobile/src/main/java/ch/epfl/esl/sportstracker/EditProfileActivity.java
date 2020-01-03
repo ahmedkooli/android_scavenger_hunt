@@ -88,22 +88,16 @@ public class EditProfileActivity extends AppCompatActivity {
     private void fetchDataFromFirebase() {
         final TextView usernameTextView = findViewById(R.id.editUsername);
         final TextView passwordTextView = findViewById(R.id.editPassword);
-        final TextView heightTextView = findViewById(R.id.editHeight);
-        final TextView weightTextView = findViewById(R.id.editWeight);
 
         profileGetRef.child(userID).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 String user_db = dataSnapshot.child("username").getValue(String.class);
                 String password_db = dataSnapshot.child("password").getValue(String.class);
-                int height_db = dataSnapshot.child("height").getValue(int.class);
-                float weight_db = dataSnapshot.child("weight").getValue(float.class);
                 String photo = dataSnapshot.child("photo").getValue(String.class);
 
                 usernameTextView.setText(user_db);
                 passwordTextView.setText(password_db);
-                heightTextView.setText(String.valueOf(height_db));
-                weightTextView.setText(String.valueOf(weight_db));
 
                 //  Reference to an image file in Firebase Storage
                 StorageReference storageRef = FirebaseStorage.getInstance().getReferenceFromUrl
@@ -178,22 +172,16 @@ public class EditProfileActivity extends AppCompatActivity {
         ImageView userImageView = findViewById(R.id.userImage);
         TextView usernameTextView = findViewById(R.id.editUsername);
         TextView passwordTextView = findViewById(R.id.editPassword);
-        TextView heightTextView = findViewById(R.id.editHeight);
-        TextView weightTextView = findViewById(R.id.editWeight);
 
         userImageView.setImageDrawable(null);
         usernameTextView.setText("");
         passwordTextView.setText("");
-        heightTextView.setText("");
-        weightTextView.setText("");
     }
 
     private void setProfileToEdit() {
         ImageView userImageView = findViewById(R.id.userImage);
         TextView usernameTextView = findViewById(R.id.editUsername);
         TextView passwordTextView = findViewById(R.id.editPassword);
-        TextView heightTextView = findViewById(R.id.editHeight);
-        TextView weightTextView = findViewById(R.id.editWeight);
 
         final InputStream imageStream;
         try {
@@ -205,8 +193,6 @@ public class EditProfileActivity extends AppCompatActivity {
         }
         usernameTextView.setText(userProfile.username);
         passwordTextView.setText(userProfile.password);
-        heightTextView.setText(String.valueOf(userProfile.height_cm));
-        weightTextView.setText(String.valueOf(userProfile.weight_kg));
     }
 
     public void chooseImage(View view) {
@@ -221,18 +207,6 @@ public class EditProfileActivity extends AppCompatActivity {
         TextView password = findViewById(R.id.editPassword);
         userProfile = new Profile(username.getText().toString(), password.getText().toString());
 
-        TextView height = findViewById(R.id.editHeight);
-        TextView weight = findViewById(R.id.editWeight);
-        try {
-            userProfile.height_cm = Integer.valueOf(height.getText().toString());
-        } catch (NumberFormatException e) {
-            userProfile.height_cm = 0;
-        }
-        try {
-            userProfile.weight_kg = Float.valueOf(weight.getText().toString());
-        } catch (NumberFormatException e) {
-            userProfile.weight_kg = 0;
-        }
         if (imageFile == null) {
             userProfile.photoPath = "";
         } else {
@@ -292,8 +266,6 @@ public class EditProfileActivity extends AppCompatActivity {
         public Transaction.Result doTransaction(@NonNull MutableData mutableData) {
             mutableData.child("username").setValue(userProfile.username);
             mutableData.child("password").setValue(userProfile.password);
-            mutableData.child("height").setValue(userProfile.height_cm);
-            mutableData.child("weight").setValue(userProfile.weight_kg);
             mutableData.child("photo").setValue(userProfile.photoPath);
             mutableData.child("game status").setValue(false);
             mutableData.child("map").setValue("None");

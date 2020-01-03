@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ahmed\\Documents\\EPFL\\MA1\\Lab on Apps Development\\sol5project-sports-tracker\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/Users/antoineschmider/Documents/GitHub/android_scavenger_hunt/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\71daf506f1ceb6b2ed755430272a232a\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/57bcbf2fecd71b248f990148ed1a0a92/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\8e77615547c2563be888db135214666c\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/antoineschmider/.gradle/caches/transforms-2/files-2.1/bdb10c4cc5dd6f2377a6361b27420f06/appcompat-1.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

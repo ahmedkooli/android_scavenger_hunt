@@ -30,7 +30,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/running"
+            android:text="@string/start"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/linearLayout"
             app:layout_constraintStart_toStartOf="@id/linearLayout"
@@ -58,7 +58,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@null"
-                android:contentDescription="@string/running"
+                android:contentDescription="@string/start"
                 android:padding="0dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/start" />
@@ -67,18 +67,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/saveNewRecButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="18dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:src="@android:drawable/ic_menu_send"
-        app:backgroundTint="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -77,14 +77,10 @@ public class MyProfileFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 String user_db = dataSnapshot.child("username").getValue(String.class);
                 String password_db = dataSnapshot.child("password").getValue(String.class);
-                int height_db = dataSnapshot.child("height").getValue(int.class);
-                float weight_db = dataSnapshot.child("weight").getValue(float.class);
                 String photo = dataSnapshot.child("photo").getValue(String.class);
 
                 userProfile = new Profile(user_db, password_db);
                 userProfile.password = password_db;
-                userProfile.height_cm = height_db;
-                userProfile.weight_kg = weight_db;
                 userProfile.photoPath = photo;
 
                 setUserImageAndProfileInfo();
@@ -184,12 +180,6 @@ public class MyProfileFragment extends Fragment {
 
         TextView passwordTextView = fragmentView.findViewById(R.id.passwordValue);
         passwordTextView.setText(userProfile.password);
-
-        TextView heightTextView = fragmentView.findViewById(R.id.heightValue);
-        heightTextView.setText(String.valueOf(userProfile.height_cm));
-
-        TextView weightTextView = fragmentView.findViewById(R.id.weightValue);
-        weightTextView.setText(String.valueOf(userProfile.weight_kg));
     }
 
     private void sendProfileToWatch() {

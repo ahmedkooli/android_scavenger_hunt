@@ -1,9 +1,21 @@
 package ch.epfl.esl.sportstracker;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
+
+import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import static ch.epfl.esl.sportstracker.MyProfileFragment.USER_ID;
 
 public class MainActivity extends AppCompatActivity implements NewRecordingFragment
         .OnFragmentInteractionListener, MyProfileFragment.OnFragmentInteractionListener,
@@ -15,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements NewRecordingFragm
     private MyProfileFragment myProfileFragment;
     private MyHistoryFragment myHistoryFragment;
     private SectionsStatePagerAdapter mSectionStatePagerAdapter;
+    private String userID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +47,13 @@ public class MainActivity extends AppCompatActivity implements NewRecordingFragm
         // Set NewRecordingFragment as default tab once started the activity
         mViewPager.setCurrentItem(mSectionStatePagerAdapter.getPositionByTitle(getString(R.string
                 .tab_title_new_recording)));
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.v(TAG, "HAHAHHAHAHAHAHAHAHHA");
+
     }
 
     private void setUpViewPager(ViewPager mViewPager) {

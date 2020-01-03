@@ -74,36 +74,6 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/username" />
 
-        <TextView
-            android:id="@+id/height"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:ems="10"
-            android:maxLines="1"
-            android:text="@string/height_cm"
-            android:textSize="24sp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password" />
-
-        <TextView
-            android:id="@+id/weight"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:ems="10"
-            android:maxLines="1"
-            android:text="@string/weight_kg"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/height"
-            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/usernameValue"
@@ -134,35 +104,6 @@
             app:layout_constraintStart_toEndOf="@+id/password"
             app:layout_constraintTop_toBottomOf="@+id/usernameValue" />
 
-        <TextView
-            android:id="@+id/heightValue"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:text=""
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/height"
-            app:layout_constraintTop_toBottomOf="@+id/passwordValue" />
-
-        <TextView
-            android:id="@+id/weightValue"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:text=""
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/weight"
-            app:layout_constraintTop_toBottomOf="@+id/heightValue" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
