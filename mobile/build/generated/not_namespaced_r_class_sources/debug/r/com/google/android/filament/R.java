@@ -12,6 +12,6 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int lib_name = 0x7f0f005c;
+        public static final int lib_name = 0x7f0f005d;
     }
 }

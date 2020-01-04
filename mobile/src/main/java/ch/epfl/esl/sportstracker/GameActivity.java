@@ -1,5 +1,6 @@
 package ch.epfl.esl.sportstracker;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,9 +12,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.location.LocationManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -32,12 +33,35 @@ import com.google.ar.sceneform.AnchorNode;
 import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
+import com.mapbox.geojson.Feature;
+import com.mapbox.geojson.FeatureCollection;
+import com.mapbox.geojson.Point;
+import com.mapbox.mapboxsdk.Mapbox;
+import com.mapbox.mapboxsdk.maps.MapView;
+import com.mapbox.mapboxsdk.maps.MapboxMap;
+import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
+import com.mapbox.mapboxsdk.maps.Style;
+import com.mapbox.mapboxsdk.style.layers.PropertyFactory;
+import com.mapbox.mapboxsdk.style.layers.SymbolLayer;
+import com.mapbox.mapboxsdk.style.sources.GeoJsonSource;
 
 import java.util.ArrayList;
+import java.util.List;
+
+import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.iconAllowOverlap;
+import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.iconIgnorePlacement;
+import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.iconOffset;
 
 
 
-public class GameActivity extends AppCompatActivity {
+
+public class GameActivity extends AppCompatActivity implements OnMapReadyCallback{
+    // used for the map
+    private static final String SOURCE_ID = "SOURCE_ID";
+    private static final String ICON_ID = "ICON_ID";
+    private static final String LAYER_ID = "LAYER_ID";
+    private MapView mapView;
+
     // used for the Augmented Reality
     private ArFragment arFragment;
 
@@ -63,6 +87,7 @@ public class GameActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Mapbox.getInstance(this, getString(R.string.access_token)); // THIS MUST BE CALLED BEFORE "setContentView()"
         setContentView(R.layout.activity_game);
 
         // FOR TESTING PURPOSES: textViews setup
@@ -70,6 +95,11 @@ public class GameActivity extends AppCompatActivity {
         heart_rate_textview = (TextView) findViewById(R.id.heart_rate_textView);
         next_clue_location_textview = (TextView) findViewById(R.id.next_clue_location_textView);
         time_elapsed_textView = (TextView) findViewById(R.id.time_elapsed_textView);
+
+        // setup of the map
+        mapView = findViewById(R.id.mapView);
+        mapView.onCreate(savedInstanceState);
+        mapView.getMapAsync(this);
 
         // here we set the callback function to be called whenever we receive an update on the location
         setupLocationSensor();
@@ -104,7 +134,7 @@ public class GameActivity extends AppCompatActivity {
                         return null;
                     });
         }));*/
-    }
+   }
 
 
     // game loop, updates the game every tot milliseconds
@@ -146,19 +176,9 @@ public class GameActivity extends AppCompatActivity {
         SendGameStatusToWatch();
     }
 
-    @Override
-    public void onResume()
-    {
-        super.onResume();
-        startLocationUpdates();
-    }
 
-    @Override
-    public void onStop()
-    {
-        super.onStop();
-        stopLocationUpdates();
-    }
+
+
 
     // tells the system to send us updates on the location every tot milliseconds
     private void startLocationUpdates()
@@ -327,5 +347,98 @@ public class GameActivity extends AppCompatActivity {
         // Select transformableNode
         transformableNode.select();
     }
+
+
+    @Override
+    public void onMapReady(@NonNull final MapboxMap mapboxMap) {
+
+        List<Feature> symbolLayerIconFeatureList = new ArrayList<>();
+        symbolLayerIconFeatureList.add(Feature.fromGeometry(
+                Point.fromLngLat(-57.225365, -33.213144)));
+        symbolLayerIconFeatureList.add(Feature.fromGeometry(
+                Point.fromLngLat(-54.14164, -33.981818)));
+        symbolLayerIconFeatureList.add(Feature.fromGeometry(
+                Point.fromLngLat(-56.990533, -30.583266)));
+
+        mapboxMap.setStyle(new Style.Builder().fromUri("mapbox://styles/mapbox/cjf4m44iw0uza2spb3q0a7s41")
+
+// Add the SymbolLayer icon image to the map style
+                .withImage(ICON_ID, BitmapFactory.decodeResource(
+                        GameActivity.this.getResources(), R.drawable.treasure))
+
+// Adding a GeoJson source for the SymbolLayer icons.
+                .withSource(new GeoJsonSource(SOURCE_ID,
+                        FeatureCollection.fromFeatures(symbolLayerIconFeatureList)))
+
+// Adding the actual SymbolLayer to the map style. An offset is added that the bottom of the red
+// marker icon gets fixed to the coordinate, rather than the middle of the icon being fixed to
+// the coordinate point. This is offset is not always needed and is dependent on the image
+// that you use for the SymbolLayer icon.
+                .withLayer(new SymbolLayer(LAYER_ID, SOURCE_ID)
+                        .withProperties(PropertyFactory.iconImage(ICON_ID),
+                                PropertyFactory.iconSize(0.05f),
+                                iconAllowOverlap(true),
+                                iconIgnorePlacement(true),
+                                iconOffset(new Float[] {0f, -9f}))
+                ), new Style.OnStyleLoaded() {
+            @Override
+            public void onStyleLoaded(@NonNull Style style) {
+
+// Map is set up and the style has loaded. Now you can add additional data or make other map adjustments.
+
+
+            }
+        });
+    }
+
+
+    @Override
+    public void onResume()
+    {
+        super.onResume();
+        startLocationUpdates();
+        mapView.onResume();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mapView.onStart();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mapView.onPause();
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        mapView.onLowMemory();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mapView.onDestroy();
+    }
+
+    @Override
+    public void onStop()
+    {
+        super.onStop();
+        stopLocationUpdates();
+        mapView.onStop();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mapView.onSaveInstanceState(outState);
+    }
 }
+
+
+
 

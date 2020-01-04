@@ -73,7 +73,7 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
             public void onReceive(Context context, Intent intent) {
                 game_status = (GameStatus) intent.getParcelableExtra(GAME_INFO);
 
-                String coordinates_text = "Latitude: " + game_status.getPlayer_location().getLatitude() + "\nLongitude: " + game_status.getPlayer_location().getLongitude();
+                String coordinates_text = "Player Latitude: " + game_status.getPlayer_location().getLatitude() + "\nLongitude: " + game_status.getPlayer_location().getLongitude();
                 coordinates_textview.setText(coordinates_text);
 
                 distance_from_clue = (int) game_status.getPlayer_location().distanceTo(game_status.getNextClueLocation());

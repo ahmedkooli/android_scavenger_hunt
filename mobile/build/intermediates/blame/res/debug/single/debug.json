@@ -28,8 +28,16 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_stroke_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_user_stroke_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\642ca4ef6a21945a958029a6cefc9c2c\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_stroke_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
@@ -44,16 +52,20 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\4ccc62f81fce624e24ab7f7b999ad3d5\\jetified-rendering-1.14.0\\res\\raw\\sceneform_plane_material.matc"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\layout\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_info_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -92,8 +104,16 @@
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_user_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_fast_out_slow_in.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_icon_stale.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -112,12 +132,12 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\color\\mtrl_chip_close_icon_tint.xml"
-    },
-    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\color\\mtrl_chip_close_icon_tint.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_black.xml.flat",
@@ -126,6 +146,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\layout\\mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_icon_stale.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_user_icon_stale.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -138,6 +162,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_info_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -168,24 +196,28 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_info_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -216,6 +248,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_info_icon_selected.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_info_icon_selected.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -232,12 +268,12 @@
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
@@ -272,6 +308,10 @@
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\menu\\menu_edit_profile.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_stroke_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_user_stroke_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -282,6 +322,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_climbing.png.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-xxhdpi\\climbing.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_puck_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -316,6 +360,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_icon_stale.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_user_icon_stale.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
@@ -346,6 +394,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_logo_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -428,12 +480,28 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_icon_stale.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_user_icon_stale.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_attribution_list_item.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\layout\\mapbox_attribution_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_user_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_design_fab_background.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_treasure.png.flat",
+        "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\drawable\\treasure.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
@@ -464,6 +532,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_markerview_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_markerview_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
     },
@@ -474,6 +546,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_bearing_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
@@ -520,6 +596,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_mylocation_icon_bearing.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_ratingbar_material.xml"
     },
@@ -544,6 +624,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\abc_tooltip_exit.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_view_image_marker.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\layout\\mapbox_view_image_marker.xml"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_cycling.png.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-xxhdpi\\cycling.png"
     },
@@ -560,6 +644,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_info_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_info_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -568,8 +656,16 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_info_icon_selected.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_info_icon_selected.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_info_icon_selected.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
@@ -578,6 +674,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_info_icon_selected.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -614,6 +714,14 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_stroke_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_user_stroke_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_marker_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
@@ -682,6 +790,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_info_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
@@ -776,6 +888,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_mylocation_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_mylocation_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -786,6 +902,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_bearing_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -806,6 +926,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -844,8 +968,20 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_stroke_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_user_stroke_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\642ca4ef6a21945a958029a6cefc9c2c\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_puck_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_user_puck_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_logo_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -880,6 +1016,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_compass_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_compass_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
@@ -890,6 +1030,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\642ca4ef6a21945a958029a6cefc9c2c\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_infowindow_content.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\layout\\mapbox_infowindow_content.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
@@ -936,6 +1080,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_compass_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_compass_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_manette.png.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\drawable\\manette.png"
     },
@@ -960,6 +1108,18 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\4ccc62f81fce624e24ab7f7b999ad3d5\\jetified-rendering-1.14.0\\res\\raw\\sceneform_opaque_colored_material.matc"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_mylocation_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_mylocation_icon_default.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_mapview_internal.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\layout\\mapbox_mapview_internal.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_user_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -968,12 +1128,24 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_puck_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_user_puck_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_compass_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_compass_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_info_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
@@ -1088,6 +1260,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_marker_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_marker_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -1114,6 +1290,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_puck_icon.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_user_puck_icon.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1144,6 +1324,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_compass_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_compass_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -1152,12 +1336,12 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
@@ -1176,6 +1360,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_puck_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_user_puck_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -1190,6 +1378,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_popup_window_transparent.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable\\mapbox_popup_window_transparent.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
@@ -1214,6 +1406,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_logo_helmet.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -1272,6 +1468,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_bearing_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_user_bearing_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_unchecked_mtrl.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_unchecked_mtrl.xml"
     },
@@ -1302,6 +1502,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_logo_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1368,6 +1572,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\642ca4ef6a21945a958029a6cefc9c2c\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_markerview_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_markerview_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\abc_slide_out_bottom.xml"
     },
@@ -1406,6 +1614,22 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\642ca4ef6a21945a958029a6cefc9c2c\\core-1.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_user_icon_shadow.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable\\mapbox_user_icon_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_info_icon_selected.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_info_icon_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_mylocation_icon_bearing.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_marker_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1460,6 +1684,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_icon.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_user_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_off_to_on_mtrl_animation.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\btn_radio_off_to_on_mtrl_animation.xml"
     },
@@ -1476,12 +1704,28 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\color\\mtrl_btn_stroke_color_selector.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_user_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_compass_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_compass_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_puck_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_user_puck_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_mylocation_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_mylocation_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -1556,8 +1800,16 @@
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_mylocation_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_mylocation_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_logo_helmet.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -1600,6 +1852,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\d8d42bb7c3bbc4a07eab4fd4b5481630\\media-1.1.0\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_marker_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_marker_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
     },
@@ -1608,8 +1864,16 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_rounded_corner.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable\\mapbox_rounded_corner.xml"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_bearing_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1628,12 +1892,20 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_logo_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_logo_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_bearing_icon.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_user_bearing_icon.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\642ca4ef6a21945a958029a6cefc9c2c\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1676,6 +1948,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_info_icon_default.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_info_icon_default.xml"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -1702,6 +1978,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_puck_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1756,12 +2036,12 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
-        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
-    },
-    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",
@@ -1774,6 +2054,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_logo_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
@@ -1832,6 +2116,14 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_info_icon_selected.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_info_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_markerview_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_markerview_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_item_tint.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\color\\mtrl_bottom_nav_colored_item_tint.xml"
     },
@@ -1864,6 +2156,10 @@
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_logo_helmet.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_logo_helmet.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
@@ -1890,6 +2186,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_top.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_bearing_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_snackbar_background.xml.flat",
@@ -1948,6 +2248,10 @@
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_markerview_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_markerview_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
@@ -1984,12 +2288,12 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
-        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\menu_menu_start.xml.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\menu\\menu_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
@@ -1998,6 +2302,14 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_info_icon_selected.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_info_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_logo_helmet.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
@@ -2014,6 +2326,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_mylocation_bg_shape.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable\\mapbox_mylocation_bg_shape.xml"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -2048,6 +2364,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_logo_helmet.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_logo_helmet.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\raw_sceneform_view_renderable.sfb.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\4ccc62f81fce624e24ab7f7b999ad3d5\\jetified-rendering-1.14.0\\res\\raw\\sceneform_view_renderable.sfb"
     },
@@ -2058,6 +2378,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_background_color.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\color\\mtrl_chip_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_sceneform_plane.png.flat",
@@ -2092,8 +2416,16 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_stroke_icon.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-anydpi-v21\\mapbox_user_stroke_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_markerview_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxhdpi-v4\\mapbox_markerview_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
@@ -2116,8 +2448,16 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_bearing_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_user_bearing_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xhdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
@@ -2256,6 +2596,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_stroke_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_user_stroke_icon.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
@@ -2308,6 +2652,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_icon_stale.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-hdpi-v4\\mapbox_user_icon_stale.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_checked_box_outer_merged_animation.xml"
     },
@@ -2326,6 +2674,14 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_icon_stale.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_user_icon_stale.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_icon_stale.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-ldpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
@@ -2360,6 +2716,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_mylocation_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_mylocation_icon_default.png"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\48637dabfe2eff5f2e1cb5c193da976a\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
@@ -2378,6 +2738,14 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-mdpi-v4\\mapbox_mylocation_icon_bearing.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_marker_icon_default.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
@@ -2420,6 +2788,10 @@
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\57bcbf2fecd71b248f990148ed1a0a92\\material-1.0.0\\res\\color\\mtrl_text_btn_text_color_selector.xml"
     },
     {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_info_bg_selector.xml.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable\\mapbox_info_bg_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\menu_menu_my_history.xml.flat",
         "source": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\src\\main\\res\\menu\\menu_my_history.xml"
     },
@@ -2458,6 +2830,10 @@
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_icon.png.flat",
+        "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\drawable-xxxhdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
