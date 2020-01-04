@@ -1,20 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\57bcbf2fecd71b248f990148ed1a0a92\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\bdb10c4cc5dd6f2377a6361b27420f06\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\da04a9af452b731220aa7e9d93fdb7ed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\d8d42bb7c3bbc4a07eab4fd4b5481630\media-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\cc72738428da7e3b2c9179be87a7d828\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c29818d776b9d64ec2f121bbbe997619\jetified-sceneform-ux-1.14.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.ar.sceneform:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\78af321814e6c1ae4b5455f402121e93\jetified-core-1.14.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3e09cd3203c7c62e8502f5cfeee66443\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\de45ca0a4fefe9c0f24baf14222c4331\firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
@@ -56,20 +58,20 @@ MERGED from [com.google.ar.sceneform:rendering:1.14.0] C:\Users\leo\.gradle\cach
 MERGED from [com.google.ar.sceneform:sceneform-base:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\7f98f8e020c9e87c4d34ccf6210b1a96\jetified-sceneform-base-1.14.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.ar.sceneform:filament-android:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8090061ea7983ca6486655446ab7cd2\jetified-filament-android-1.14.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:17:1-46:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:2:11-69
@@ -89,18 +91,28 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:7:5-65
 	android:name
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:7:22-62
-uses-feature#android.hardware.camera.ar
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:9:5-11:35
-	android:required
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:11:9-32
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:10:9-50
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:9:22-76
+uses-feature#android.hardware.camera.ar
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:12:9-50
 application
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:13:5-57:19
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:15:5-66:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\57bcbf2fecd71b248f990148ed1a0a92\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\57bcbf2fecd71b248f990148ed1a0a92\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\cc72738428da7e3b2c9179be87a7d828\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\cc72738428da7e3b2c9179be87a7d828\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:28:5-36:19
@@ -109,6 +121,8 @@ MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\c
 MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3e09cd3203c7c62e8502f5cfeee66443\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3e09cd3203c7c62e8502f5cfeee66443\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\de45ca0a4fefe9c0f24baf14222c4331\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\de45ca0a4fefe9c0f24baf14222c4331\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:12:5-24:19
@@ -128,29 +142,21 @@ MERGED from [com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\642ca4ef6a21945a958029a6cefc9c2c\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:19:9-43
 	android:icon
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:15:9-38
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:17:9-38
 	android:allowBackup
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:21:9-40
 activity#ch.epfl.esl.sportstracker.GameActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:20:9-59
-	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:20:19-47
-activity#ch.epfl.esl.sportstracker.WaitForMapActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:21:9-56
-	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:21:19-53
-activity#ch.epfl.esl.sportstracker.LoginActivity
 ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:9-27:20
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:19-48
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
@@ -161,54 +167,62 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:25:17-77
 	android:name
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:25:27-74
-activity#ch.epfl.esl.sportstracker.MapActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:28:9-49
+activity#ch.epfl.esl.sportstracker.WaitForMapActivity
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:28:9-56
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:28:19-46
-activity#ch.epfl.esl.sportstracker.StartActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:9-51
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:28:19-53
+activity#ch.epfl.esl.sportstracker.LoginActivity
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:9-36:20
 	android:name
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:19-48
+activity#ch.epfl.esl.sportstracker.MapActivity
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:37:9-49
+	android:name
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:37:19-46
+activity#ch.epfl.esl.sportstracker.StartActivity
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:38:9-51
+	android:name
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:38:19-48
 activity#ch.epfl.esl.sportstracker.MainActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:30:9-32:51
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:39:9-41:51
 	android:launchMode
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:32:13-48
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:41:13-48
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:31:13-41
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:40:13-41
 activity#ch.epfl.esl.sportstracker.EditProfileActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:33:9-57
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:42:9-57
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:33:19-54
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:42:19-54
 service#ch.epfl.esl.sportstracker.WearService
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:35:9-52:19
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:44:9-61:19
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:35:18-45
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:44:18-45
 intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:+data:scheme:wear
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:36:13-43:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:45:13-52:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:37:17-87
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:46:17-87
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:37:25-84
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:46:25-84
 data
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:39:17-42:45
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:48:17-51:45
 	android:host
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:40:21-37
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:49:21-37
 	android:scheme
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:42:21-42
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:51:21-42
 	android:pathPrefix
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:41:21-42
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:50:21-42
 intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:+data:scheme:wear
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:44:13-51:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:53:13-60:29
 action#com.google.android.gms.wearable.MESSAGE_RECEIVED
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:45:17-91
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:54:17-91
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:45:25-88
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:54:25-88
 meta-data#com.google.ar.core
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:54:9-56:40
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:63:9-65:40
 	android:value
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:56:13-37
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:55:13-46
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:64:13-46
 uses-sdk
 INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml
@@ -223,6 +237,8 @@ MERGED from [androidx.media:media:1.1.0] C:\Users\leo\.gradle\caches\transforms-
 MERGED from [androidx.media:media:1.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\d8d42bb7c3bbc4a07eab4fd4b5481630\media-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\cc72738428da7e3b2c9179be87a7d828\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\cc72738428da7e3b2c9179be87a7d828\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-wearable:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c5a5ddc61ca53058acc04464a41a4bc0\play-services-wearable-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:19:5-21:41
@@ -235,6 +251,8 @@ MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.14.0] C:\Users\leo\.gradl
 MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c29818d776b9d64ec2f121bbbe997619\jetified-sceneform-ux-1.14.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.ar.sceneform:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\78af321814e6c1ae4b5455f402121e93\jetified-core-1.14.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.ar.sceneform:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\78af321814e6c1ae4b5455f402121e93\jetified-core-1.14.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3e09cd3203c7c62e8502f5cfeee66443\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3e09cd3203c7c62e8502f5cfeee66443\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\de45ca0a4fefe9c0f24baf14222c4331\firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\de45ca0a4fefe9c0f24baf14222c4331\firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:7:5-9:41

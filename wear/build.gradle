@@ -42,3 +42,4 @@ dependencies {
     implementation 'com.google.android.gms:play-services-wearable:17.0.0'
     compileOnly 'com.google.android.wearable:wearable:2.5.0'
 }
+

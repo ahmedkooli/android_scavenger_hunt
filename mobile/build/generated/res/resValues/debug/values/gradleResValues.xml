@@ -8,11 +8,20 @@
     <string name="W_example_path_asset" translatable="false">/ ASSET </string>
     <string name="W_example_path_datamap" translatable="false">/DATAMAP</string>
     <string name="W_example_path_text" translatable="false">/TEXT</string>
+    <string name="W_heart_rate" translatable="false">heart_rate</string>
     <string name="W_mainactivity" translatable="false">MainActivity</string>
+    <string name="W_next_clue_latitude" translatable="false">next_clue_latitude</string>
+    <string name="W_next_clue_longitude" translatable="false">next_clue_longitude</string>
     <string name="W_path_acknowledge" translatable="false">/ACKNOWLEDGE</string>
     <string name="W_path_start_activity" translatable="false">/START_ACTIVITY</string>
+    <string name="W_player_latitude" translatable="false">player_latitude</string>
+    <string name="W_player_longitude" translatable="false">player_longitude</string>
     <string name="W_profile_key" translatable="false">profile_key</string>
     <string name="W_profile_path" translatable="false">/PROFILE</string>
+    <string name="W_send_game_info" translatable="false">/SEND_GAME_INFO</string>
+    <string name="W_send_heart_rate" translatable="false">/SEND_HEART_RATE</string>
     <string name="W_some_other_key" translatable="false">some_other_value</string>
+    <string name="W_starting_time" translatable="false">starting_time</string>
+    <string name="W_time_limit" translatable="false">time_limit</string>
 
 </resources>

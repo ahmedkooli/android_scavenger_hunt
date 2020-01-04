@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\e410416b71e3b622aa9f853806589604\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\da04a9af452b731220aa7e9d93fdb7ed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -38,20 +38,20 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leo\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\03c200578e1b213fedba5c553d8e035b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5b734c211fd24f39cdfbc07be9048a3a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\6fd8a412c79fee30ef7382d67aeb965c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:2:11-69
@@ -63,8 +63,16 @@ uses-permission#android.permission.WAKE_LOCK
 ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:7:5-68
 	android:name
 		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BODY_SENSORS
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:9:22-63
 application
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:9:5-53:19
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:11:5-54:19
 MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:9:5-13:19
 MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:9:5-13:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9e200503cfee2123d1209b05274e4189\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -84,69 +92,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\le
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\9a3f17e03d7871cdac7b14071295d3cc\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:11:9-39
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:13:9-39
 	android:allowBackup
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:10:9-35
-	android:theme
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:14:9-59
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:12:9-35
 uses-library#com.google.android.wearable
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:15:9-17:39
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:16:9-18:39
 MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:10:9-12:40
 MERGED from [com.google.android.support:wearable:2.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\dcad6f6389688409797d0c6198769cce\jetified-wearable-2.5.0\AndroidManifest.xml:10:9-12:40
 	android:required
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:16:13-55
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:17:13-55
 meta-data#com.google.android.wearable.standalone
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:22:9-24:36
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:23:9-25:36
 	android:value
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:24:13-33
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:25:13-33
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:23:13-66
-activity#ch.epfl.esl.sportstracker.MainActivity
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:26:9-34:20
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:24:13-66
+activity#ch.epfl.esl.sportstracker.GameActivityWatch
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:27:9-35:20
 	android:label
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:28:13-45
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:27:13-41
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:28:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:33:27-74
 service#ch.epfl.esl.sportstracker.WearService
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:36:9-51:19
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:9-52:19
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:36:18-45
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:18-45
 intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:+data:scheme:wear
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:13-43:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:13-44:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:17-87
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:17-87
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:25-84
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:25-84
 data
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:17-42:45
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:17-43:45
 	android:host
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:21-37
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-37
 	android:scheme
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:43:21-42
 	android:pathPrefix
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-42
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
 intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:+data:scheme:wear
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:44:13-50:29
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:13-51:29
 action#com.google.android.gms.wearable.MESSAGE_RECEIVED
-ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:17-91
+ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:46:17-91
 	android:name
-		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:25-88
+		ADDED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:46:25-88
 uses-sdk
 INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml

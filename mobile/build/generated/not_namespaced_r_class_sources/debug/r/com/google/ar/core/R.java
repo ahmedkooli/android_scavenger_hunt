@@ -29,10 +29,10 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int __arcore_cancel = 0x7f0f000a;
-        public static final int __arcore_continue = 0x7f0f000b;
-        public static final int __arcore_install_app = 0x7f0f000c;
-        public static final int __arcore_install_feature = 0x7f0f000d;
-        public static final int __arcore_installing = 0x7f0f000e;
+        public static final int __arcore_cancel = 0x7f0f0013;
+        public static final int __arcore_continue = 0x7f0f0014;
+        public static final int __arcore_install_app = 0x7f0f0015;
+        public static final int __arcore_install_feature = 0x7f0f0016;
+        public static final int __arcore_installing = 0x7f0f0017;
     }
 }

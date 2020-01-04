@@ -7,6 +7,8 @@ import android.graphics.Matrix;
 import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+import android.os.Bundle;
 import android.util.Log;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -18,6 +20,7 @@ import com.google.android.gms.wearable.DataClient;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
 import com.google.android.gms.wearable.DataItem;
+import com.google.android.gms.wearable.DataMap;
 import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Node;
@@ -34,13 +37,15 @@ import java.util.List;
 
 public class WearService extends WearableListenerService {
 
-    public static final String ACTIVITY_TO_START = "ACTIVITY_TO_START";
+    /*public static final String ACTIVITY_TO_START = "ACTIVITY_TO_START";
     public static final String MESSAGE = "MESSAGE";
     public static final String DATAMAP_INT = "DATAMAP_INT";
     public static final String DATAMAP_INT_ARRAYLIST = "DATAMAP_INT_ARRAYLIST";
     public static final String IMAGE = "IMAGE";
     public static final String PATH = "PATH";
-    public static final String PROFILE = "PROFILE";
+    public static final String PROFILE = "PROFILE";*/
+    public static final String GAME_STATUS = "GAME_STATUS";
+
     // Tag for Logcat
     private final String TAG = this.getClass().getSimpleName();
 
@@ -101,7 +106,15 @@ public class WearService extends WearableListenerService {
         ACTION_SEND action = ACTION_SEND.valueOf(intent.getAction());
         PutDataMapRequest putDataMapRequest;
         switch (action) {
-            case STARTACTIVITY:
+            case SEND_GAME_STATUS:
+                Bundle game_status_bundle = intent.getExtras().getBundle(GAME_STATUS);
+                DataMap game_status_dataMap = DataMap.fromBundle(game_status_bundle);
+
+                putDataMapRequest = PutDataMapRequest.create(BuildConfig.W_send_game_info);
+                putDataMapRequest.getDataMap().putDataMap(BuildConfig.W_send_game_info, game_status_dataMap);
+                sendPutDataMapRequest(putDataMapRequest);
+                break;
+            /*case STARTACTIVITY:
                 String activity = intent.getStringExtra(ACTIVITY_TO_START);
                 sendMessage(activity, BuildConfig.W_path_start_activity);
                 break;
@@ -130,7 +143,7 @@ public class WearService extends WearableListenerService {
                 putDataMapRequest.getDataMap().putDataMap(BuildConfig.W_profile_key, userProfile
                         .toDataMap());
                 sendPutDataMapRequest(putDataMapRequest);
-                break;
+                break;*/
             default:
                 Log.w(TAG, "Unknown action");
                 break;
@@ -333,6 +346,6 @@ public class WearService extends WearableListenerService {
 
     // Constants
     public enum ACTION_SEND {
-        STARTACTIVITY, MESSAGE, EXAMPLE_DATAMAP, EXAMPLE_ASSET, PROFILE_SEND
+        SEND_GAME_STATUS, /*STARTACTIVITY, MESSAGE, EXAMPLE_DATAMAP, EXAMPLE_ASSET, PROFILE_SEND*/
     }
 }

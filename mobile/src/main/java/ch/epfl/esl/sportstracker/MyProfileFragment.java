@@ -182,10 +182,10 @@ public class MyProfileFragment extends Fragment {
         passwordTextView.setText(userProfile.password);
     }
 
-    private void sendProfileToWatch() {
+   /* private void sendProfileToWatch() {
         Intent intentWear = new Intent(getActivity(), WearService.class);
         intentWear.setAction(WearService.ACTION_SEND.PROFILE_SEND.name());
         intentWear.putExtra(WearService.PROFILE, userProfile);
         getActivity().startService(intentWear);
-    }
+    }*/
 }

@@ -41,6 +41,17 @@ allprojects {
 
                 profile_path        : "/PROFILE",
                 profile_key         : "profile_key",
+
+                "send_game_info" : "/SEND_GAME_INFO",
+                "send_heart_rate" : "/SEND_HEART_RATE",
+
+                "player_latitude" : "player_latitude",
+                "player_longitude" : "player_longitude",
+                "next_clue_latitude" : "next_clue_latitude",
+                "next_clue_longitude" : "next_clue_longitude",
+                "starting_time" : "starting_time",
+                "time_limit" : "time_limit",
+                "heart_rate" : "heart_rate"
         ]
     }
 }
