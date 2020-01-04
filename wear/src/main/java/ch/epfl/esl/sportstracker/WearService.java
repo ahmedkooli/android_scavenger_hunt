@@ -102,6 +102,11 @@ public class WearService extends WearableListenerService {
                         longitude = data.getDouble(BuildConfig.W_next_clue_longitude);
                         game_info.setNextClueLocation(latitude, longitude);
 
+                        // Extracts time limit
+                        long time_limit;
+                        time_limit = data.getLong(BuildConfig.W_time_limit);
+                        game_info.setTimeLimit(time_limit);
+
                         // sends game status to GameActivityWatch through an intent
                         intent = new Intent(GameActivityWatch.RETRIEVE_MOBILE_INFO);
                         intent.putExtra(GameActivityWatch.GAME_INFO, game_info);

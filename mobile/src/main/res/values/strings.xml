@@ -32,4 +32,7 @@
     <string name="start">Whenever you are ready press start</string>
     <string name="hunt">Hunt</string>
     <string name="access_token" translatable="false">pk.eyJ1IjoibGVvcGljY2hpbyIsImEiOiJjazR6b2wxYjMwY2I4M25wN3h0dXVxdmE5In0.NRXEflkdvKSwaJL9Z0e8OA</string>
+    <string name="one_minute_alert">You have one minute!</string>
+    <string name="thirty_seconds_alert">You have 30 seconds left!</string>
+    <string name="ten_seconds_alert">10 seconds!</string>
 </resources>

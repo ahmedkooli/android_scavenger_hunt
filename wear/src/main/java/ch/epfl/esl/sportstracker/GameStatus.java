@@ -56,6 +56,16 @@ public class GameStatus implements Parcelable {
     public void setHeartRate(int heart_rate) { this.heart_rate = heart_rate; }
 
     public int getHeartRate() { return this.heart_rate; }
+    public long getTimeLimit() { return this.time_limit; }
+    public long getRemainingTime()
+    {
+        if (time_limit > System.currentTimeMillis())
+            return time_limit - System.currentTimeMillis();
+        else
+            return 0;
+    }
+
+    public void setTimeLimit(long time_limit) {this.time_limit = time_limit;}
 
     public void setNextClueLocation(Location location)
     {

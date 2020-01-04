@@ -18,33 +18,95 @@
         app:boxedEdges="all"
         tools:ignore="MissingPrefix">
 
-        <TextView
-            android:id="@+id/coordinates_textview"
-            android:keepScreenOn="true"
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="" />
-        <TextView
-            android:id="@+id/heart_rate_textview"
-            android:layout_gravity="center"
-            android:keepScreenOn="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:padding="6dip" >
+
+            <ImageView
+                android:id="@+id/icon_heart"
+                android:layout_width="30dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="6dip"
+                android:contentDescription="TODO"
+                android:src="@drawable/icon_heart" />
+
+            <TextView
+                android:id="@+id/heart_rate_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="26dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/icon_heart"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:text="Waiting for data..."
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="" />
-        <TextView
-            android:id="@+id/distance_from_clue_textview"
-            android:layout_gravity="center"
-            android:keepScreenOn="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:padding="6dip" >
+
+            <ImageView
+                android:id="@+id/icon_treasure"
+                android:layout_width="30dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="6dip"
+                android:contentDescription="TODO"
+                android:src="@drawable/icon_treasure" />
+
+            <TextView
+                android:id="@+id/distance_from_treasure_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="26dip"
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/icon_treasure"
+                android:singleLine="true"
+                android:text="Waiting for data..."
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="" />
+            android:padding="6dip" >
+
+            <ImageView
+                android:id="@+id/icon_time"
+                android:layout_width="30dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="6dip"
+                android:contentDescription="TODO"
+                android:src="@drawable/icon_watch" />
+
+            <TextView
+                android:id="@+id/time_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="26dip"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/icon_time"
+                android:singleLine="true"
+                android:text="Waiting for data..."
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+
+
 
 
     </LinearLayout>

@@ -8,6 +8,7 @@ public class Player {
     private Location location;
     private int heart_rate;
     private ArrayList<Treasure> trasures_found;
+    /** TO DO: add profile */
     //private Profile profile;
 
     public Player()
@@ -20,4 +21,8 @@ public class Player {
     public void     setLocation(Location location)      { this.location = location;}
     public Location getLocation()                       { return location;}
     public void addTreasureFound(Treasure treasure)      { trasures_found.add(treasure);}
+
+    public ArrayList<Treasure> getTrasuresFound() {
+        return trasures_found;
+    }
 }

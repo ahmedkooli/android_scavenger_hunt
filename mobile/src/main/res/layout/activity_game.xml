@@ -12,16 +12,12 @@
 
 
 
-       <com.mapbox.mapboxsdk.maps.MapView
-           android:id="@+id/mapView"
-           android:layout_width="match_parent"
-           android:layout_height="0dp"
-           android:layout_weight="0.5">
-
-       </com.mapbox.mapboxsdk.maps.MapView>
-
-
-
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+    </com.mapbox.mapboxsdk.maps.MapView>
 
 
     <fragment
@@ -44,7 +40,7 @@
             android:id="@+id/player_location_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="Player Location:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
             app:layout_constraintStart_toStartOf="@+id/constraintLayout"
@@ -66,7 +62,7 @@
             android:id="@+id/heart_rate_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="Heart rate not available"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -74,7 +70,7 @@
             app:layout_constraintVertical_bias="0.60" />
 
         <TextView
-            android:id="@+id/time_elapsed_textView"
+            android:id="@+id/time_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"

@@ -43,7 +43,16 @@ public class GameData {
     public Player getPlayer()                   { return player; }
     public Location getPlayerLocation()         { return player.getLocation(); }
     public Treasure getNext_treasure()          { return next_treasure; }
-    public long getTime_limit()                 { return time_limit; }
+    public long getTimeLimit()                  { return time_limit; }
+    public long getStartingTime()               { return starting_time; }
+
+    public long getRemainingTime()
+    {
+        if (time_limit > System.currentTimeMillis())
+            return time_limit - System.currentTimeMillis();
+        else
+            return 0;
+    }
 
     public void addOpponent(Player new_opponent)
     {

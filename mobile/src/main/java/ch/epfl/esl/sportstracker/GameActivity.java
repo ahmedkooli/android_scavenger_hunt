@@ -22,6 +22,7 @@ import android.os.Looper;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
@@ -82,7 +83,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     private BroadcastReceiver broadcast_receiver;
 
     // FOR TESTING PURPOSES:
-    private TextView text, heart_rate_textview, next_clue_location_textview, time_elapsed_textView;
+    private TextView text, heart_rate_textview, next_clue_location_textview, time_textView;
 
 
     @RequiresApi(api = Build.VERSION_CODES.N)
@@ -96,7 +97,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         text = (TextView) findViewById(R.id.player_location_textView);
         heart_rate_textview = (TextView) findViewById(R.id.heart_rate_textView);
         next_clue_location_textview = (TextView) findViewById(R.id.next_clue_location_textView);
-        time_elapsed_textView = (TextView) findViewById(R.id.time_elapsed_textView);
+        time_textView = (TextView) findViewById(R.id.time_textView);
 
         // setup of the map
         mapView = findViewById(R.id.mapView);
@@ -308,13 +309,8 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         //TO DO: load treasures, opponent and other info from Firebase!!! These are just dummy values
         Player opponent = new Player();
         ArrayList<Treasure> treasures = new ArrayList<>();
-        treasures.add(new Treasure(44.3, 8.15));
-        treasures.add(new Treasure(44.5, 8.35));
-        treasures.add(new Treasure(44.7, 8.55));
-        treasures.add(new Treasure(44.9, 8.95));
-        treasures.add(new Treasure(44.1, 8.75));
         Treasure next_treasure = new Treasure();
-        long time_limit = 0;
+        long time_limit = System.currentTimeMillis() + 40000;
         float threshold_distance = 0;
 
         game_data.addOpponent(opponent);
@@ -323,15 +319,26 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         game_data.setStarting_time(System.currentTimeMillis());
         game_data.setTime_limit(time_limit);
         game_data.setThreshold_distance(threshold_distance);
+
+        /** DUMMY VALUES TO TEST THE MAP: puts some found treasures in the player's data*/
+        game_data.getPlayer().addTreasureFound(new Treasure(44.3, 8.15));
+        game_data.getPlayer().addTreasureFound(new Treasure(44.5, 8.35));
+        game_data.getPlayer().addTreasureFound(new Treasure(44.7, 8.55));
+        game_data.getPlayer().addTreasureFound(new Treasure(44.9, 8.95));
+        game_data.getPlayer().addTreasureFound(new Treasure(44.1, 8.75));
     }
 
 
     /** Runs the game logic according to the game data. It is called from "gameLoop" every 0.5 seconds
      *  PUT ALL GAME LOGIC HERE */
+    private long last_remaining_time;
     private void updateGame()
     {
+        long remaining_time = game_data.getRemainingTime();
+
         // FOR TESTING PURPOSES:
-        time_elapsed_textView.setText("Time: " + game_data.getElapsedTime() / 1000);    // shows elapsed time
+        String time_text = "Remaining time: " + game_data.getRemainingTime() / 1000 + "   Elapsed: " + game_data.getElapsedTime() / 1000;
+        time_textView.setText(time_text);    // shows remaining and elapsed time
 
         //  if the player founds a treasure
         if (game_data.getPlayerDistanceFromTreasure() < game_data.getThreshold_distance() )
@@ -340,6 +347,24 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             // TO DO: update Firebase
         }
 
+        // sends alerts when time is running out
+        if ((remaining_time < 60000)&&(last_remaining_time > 60000))    // checks for transition through 60 seconds
+        {
+            Toast toast=Toast.makeText(this, R.string.one_minute_alert, Toast.LENGTH_LONG);
+            toast.show();
+        }
+        else if ((remaining_time < 30000)&&(last_remaining_time > 30000))
+        {
+            Toast toast=Toast.makeText(this, R.string.thirty_seconds_alert, Toast.LENGTH_LONG);
+            toast.show();
+        }
+        else if ((remaining_time < 10000)&&(last_remaining_time > 10000))
+        {
+            Toast toast=Toast.makeText(this, R.string.ten_seconds_alert, Toast.LENGTH_SHORT);
+            toast.show();
+        }
+
+        last_remaining_time = remaining_time;
         // TO DO: map update should happen only if treasure was found
         updateMap();
     }
@@ -437,7 +462,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapView.onSaveInstanceState(outState);
     }
 
-    /** Updates the treasure marker displayed on the map according to the data stored in "game_data".
+    /** Updates the treasure marker displayed on the map according to the treasures stored in "game_data".
      * It uses the object "geoJsonSource_markers_coordinates" which contains the treasure markers coordinates.
      * If we modify it, the treasure markers on the map are updated.*/
     public void updateMap()
@@ -450,7 +475,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         // creates a list containing the treasures coordinates extracted from game_data
         List<Feature> features_treasures_coordinates = new ArrayList<>();
 
-        for(Treasure treasure : game_data.getTreasures())
+        for(Treasure treasure : game_data.getPlayer().getTrasuresFound())
         {
             double latitude, longitude;
             latitude = treasure.getLatitude();

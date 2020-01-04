@@ -32,10 +32,10 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
     Vibrator vibratore;
 
     private GameStatus game_status;
-    private int last_distance_from_clue, distance_from_clue;
-    private TextView coordinates_textview;
+    private int last_distance_from_treasure, distance_from_treasure;
+    private TextView time_textview;
     private TextView heart_rate_textview;
-    private TextView distance_from_clue_textview;
+    private TextView distance_from_treasure_textview;
 
     // communication with mobile device through DataLayer
     private LocalBroadcastManager local_broadcast_manager;
@@ -55,12 +55,12 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
         vibratore = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
         // text fields setup
-        coordinates_textview = (TextView) findViewById(R.id.coordinates_textview);
+        time_textview = (TextView) findViewById(R.id.time_textview);
         heart_rate_textview = (TextView) findViewById(R.id.heart_rate_textview);
-        distance_from_clue_textview = (TextView) findViewById(R.id.distance_from_clue_textview);
-        coordinates_textview.setText("Ciao");
-        heart_rate_textview.setText("Please touch the sensor and stay still");
-        distance_from_clue_textview.setText("Distance from clue:");
+        distance_from_treasure_textview = (TextView) findViewById(R.id.distance_from_treasure_textview);
+        time_textview.setText("...");
+        heart_rate_textview.setText("...");
+        distance_from_treasure_textview.setText("...");
 
         // heart rate sensor setup
         checkBodySensorsPermission();
@@ -73,16 +73,10 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
             public void onReceive(Context context, Intent intent) {
                 game_status = (GameStatus) intent.getParcelableExtra(GAME_INFO);
 
-                String coordinates_text = "Player Latitude: " + game_status.getPlayer_location().getLatitude() + "\nLongitude: " + game_status.getPlayer_location().getLongitude();
-                coordinates_textview.setText(coordinates_text);
+                //String coordinates_text = "Player Latitude: " + game_status.getPlayer_location().getLatitude() + "\nLongitude: " + game_status.getPlayer_location().getLongitude();
+                //coordinates_textview.setText(coordinates_text);
 
-                distance_from_clue = (int) game_status.getPlayer_location().distanceTo(game_status.getNextClueLocation());
-                if (distance_from_clue != last_distance_from_clue)
-                {
-                    last_distance_from_clue = distance_from_clue;
-                    update_vibration(distance_from_clue);
-                    distance_from_clue_textview.setText("Distance from clue: " + distance_from_clue + " m");
-                }
+               updateGame();
             }
         };
 
@@ -92,27 +86,35 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
         setAmbientEnabled();
     }
 
-
-
-    public void update_vibration(float distance_from_clue)
+    public void updateGame()
     {
-        if (distance_from_clue < VIBRATION_DISTANCE_THRESHOLD)
-        {
-            int vibration_amplitude =(int) (VIBRATION_MAX_AMPLITUDE * (VIBRATION_DISTANCE_THRESHOLD - distance_from_clue)/VIBRATION_DISTANCE_THRESHOLD);
-            int vibration_interval = (int)(VIBRATION_MIN_INTERVAL + (VIBRATION_MAX_INTERVAL - VIBRATION_MIN_INTERVAL) * distance_from_clue / VIBRATION_DISTANCE_THRESHOLD);
-            long[] vibration_timings = {VIBRATION_DURATION, vibration_interval};
-            int[] vibration_amplitudes = {vibration_amplitude, 0};
+        // computes the distance from the treasure and displays it
+        distance_from_treasure = (int) game_status.getPlayer_location().distanceTo(game_status.getNextClueLocation());
+        distance_from_treasure_textview.setText( distance_from_treasure + " meters");
 
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                VibrationEffect vibration_effect = VibrationEffect.createWaveform(vibration_timings, vibration_amplitudes, 0);
-                vibratore.vibrate(vibration_effect);
+        // checks if we are close to the treasure: if yes vibrates according to the distance
+        if (distance_from_treasure != last_distance_from_treasure)
+        {
+            last_distance_from_treasure = distance_from_treasure;
+            if (distance_from_treasure < VIBRATION_DISTANCE_THRESHOLD)
+            {
+                int vibration_amplitude =(int) (VIBRATION_MAX_AMPLITUDE * (VIBRATION_DISTANCE_THRESHOLD - distance_from_treasure)/VIBRATION_DISTANCE_THRESHOLD);
+                int vibration_interval = (int)(VIBRATION_MIN_INTERVAL + (VIBRATION_MAX_INTERVAL - VIBRATION_MIN_INTERVAL) * distance_from_treasure / VIBRATION_DISTANCE_THRESHOLD);
+                long[] vibration_timings = {VIBRATION_DURATION, vibration_interval};
+                int[] vibration_amplitudes = {vibration_amplitude, 0};
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    VibrationEffect vibration_effect = VibrationEffect.createWaveform(vibration_timings, vibration_amplitudes, 0);
+                    vibratore.vibrate(vibration_effect);
+                }
             }
         }
-        else
-        {
-            vibratore.cancel();
-        }
+
+        time_textview.setText( game_status.getRemainingTime() /1000 + "s");
+
     }
+
+
 
     public void sendHeartRate()
     {
