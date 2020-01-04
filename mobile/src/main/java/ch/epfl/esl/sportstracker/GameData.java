@@ -38,11 +38,12 @@ public class GameData {
 
 
     // getters
-    public float getThreshold_distance()    { return threshold_distance;}
-    public Player getPlayer()               { return player; }
-    public Location getPlayerLocation()     { return player.getLocation(); }
-    public Treasure getNext_treasure()      { return next_treasure; }
-    public long getTime_limit()             { return time_limit; }
+    public ArrayList<Treasure> getTreasures()   { return treasures; }
+    public float getThreshold_distance()        { return threshold_distance;}
+    public Player getPlayer()                   { return player; }
+    public Location getPlayerLocation()         { return player.getLocation(); }
+    public Treasure getNext_treasure()          { return next_treasure; }
+    public long getTime_limit()                 { return time_limit; }
 
     public void addOpponent(Player new_opponent)
     {

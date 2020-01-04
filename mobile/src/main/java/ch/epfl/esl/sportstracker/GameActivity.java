@@ -61,6 +61,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final String ICON_ID = "ICON_ID";
     private static final String LAYER_ID = "LAYER_ID";
     private MapView mapView;
+    private GeoJsonSource geoJsonSource_markers_coordinates;  // this object holds the position of the markers shown on the map (the icons of the little treasures)
 
     // used for the Augmented Reality
     private ArFragment arFragment;
@@ -82,6 +83,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     // FOR TESTING PURPOSES:
     private TextView text, heart_rate_textview, next_clue_location_textview, time_elapsed_textView;
+
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
@@ -137,7 +139,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
    }
 
 
-    // game loop, updates the game every tot milliseconds
+    /** game loop, updates the game every tot milliseconds */
     public void startGameLoop()
     {
         final Handler handler = new Handler();
@@ -153,7 +155,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         }, delay);
     }
 
-    // sends the current status of the game_data to the watch (only relevant information, we can customize the info sent by modifying the "toDataMap()" method in GameData )
+    /** sends the current status of the game_data to the watch (only relevant information, we can customize the info sent by modifying the "toDataMap()" method in GameData )*/
     public void SendGameStatusToWatch()
     {
         // puts relevant data into a dataMap object
@@ -168,7 +170,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
 
-    // FOR TESTING PURPOSES: creates a new treasure at the current location and sets it as the next treasure to find
+    /** FOR TESTING PURPOSES: creates a new treasure at the current location and sets it as the next treasure to find*/
     public void buttonClick(View view)
     {
         Treasure new_treasure = new Treasure(game_data.getPlayerLocation());
@@ -179,8 +181,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
 
-
-    // tells the system to send us updates on the location every tot milliseconds
+    /** tells the system to send us updates on the location every tot milliseconds*/
     private void startLocationUpdates()
     {
         LocationRequest location_request = new LocationRequest();
@@ -191,14 +192,14 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Looper.getMainLooper());
     }
 
-    // tells the system to stop sending us updates on the location
+    /** tells the system to stop sending us updates on the location*/
     private void stopLocationUpdates()
     {
         fused_location_client.removeLocationUpdates(location_callback);
     }
 
 
-    // defines what to do when we receive data from the watch (for now we receive just heart rate)
+    /** Here we define what to do when we receive data from the watch (for now we receive just heart rate)*/
     private void setupCommunicationWithWatch()
     {
         // Register for updates on data sent from the watch
@@ -217,7 +218,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         local_broadcast_manager.registerReceiver(broadcast_receiver, new IntentFilter(RETRIEVE_WATCH_INFO));
     }
 
-    // defines what to do when we receive updates on the location
+    /** Here we define what to do when we receive updates on the location*/
     private void setupLocationSensor()
     {
         checkLocationPermissions();
@@ -255,6 +256,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         startLocationUpdates();
     }
 
+    /** Checks if location is on and if not asks user to turn it on */
     private void checkLocationEnabled () {
         LocationManager location_manager = (LocationManager)
                 getSystemService(Context.LOCATION_SERVICE ) ;
@@ -285,7 +287,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 
-
+    /** Checks if user has allowed access to location and prompts to do so */
     private void checkLocationPermissions()
     {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && (checkSelfPermission("android" + ""
@@ -298,12 +300,19 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 
-    // loads all information useful for the game from Firebase
+
+    /** loads all information useful for the game from Firebase
+     * TO DO: LOAD PLAYER, OPPONENT, TREASURES AND SETTINGS FROM FIREBASE!!*/
     private void setupGame()
     {
-        //TO DO: load treasures, opponent and other info from Firebase!!!
+        //TO DO: load treasures, opponent and other info from Firebase!!! These are just dummy values
         Player opponent = new Player();
-        ArrayList<Treasure> treasures = new ArrayList<Treasure>();
+        ArrayList<Treasure> treasures = new ArrayList<>();
+        treasures.add(new Treasure(44.3, 8.15));
+        treasures.add(new Treasure(44.5, 8.35));
+        treasures.add(new Treasure(44.7, 8.55));
+        treasures.add(new Treasure(44.9, 8.95));
+        treasures.add(new Treasure(44.1, 8.75));
         Treasure next_treasure = new Treasure();
         long time_limit = 0;
         float threshold_distance = 0;
@@ -316,7 +325,9 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         game_data.setThreshold_distance(threshold_distance);
     }
 
-    // runs the game logic according to the game data
+
+    /** Runs the game logic according to the game data. It is called from "gameLoop" every 0.5 seconds
+     *  PUT ALL GAME LOGIC HERE */
     private void updateGame()
     {
         // FOR TESTING PURPOSES:
@@ -328,6 +339,9 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             game_data.getPlayer().addTreasureFound(game_data.getNext_treasure());
             // TO DO: update Firebase
         }
+
+        // TO DO: map update should happen only if treasure was found
+        updateMap();
     }
 
     private void addModelToScene(Anchor anchor, ModelRenderable modelRenderable) {
@@ -349,45 +363,30 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
 
+    /** This function runs when the map has loaded and is ready to work. It sets the appearance of
+     * the map and of the markers that indicate the treasures.*/
     @Override
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
+        // this object will contain the markers coordinates (can be modified and markers will update)
+        geoJsonSource_markers_coordinates = new GeoJsonSource(SOURCE_ID);
 
-        List<Feature> symbolLayerIconFeatureList = new ArrayList<>();
-        symbolLayerIconFeatureList.add(Feature.fromGeometry(
-                Point.fromLngLat(-57.225365, -33.213144)));
-        symbolLayerIconFeatureList.add(Feature.fromGeometry(
-                Point.fromLngLat(-54.14164, -33.981818)));
-        symbolLayerIconFeatureList.add(Feature.fromGeometry(
-                Point.fromLngLat(-56.990533, -30.583266)));
+        mapboxMap.setStyle(Style.OUTDOORS, style -> {
+            /* This function runs after the style has been set. The map is set up and the style has loaded.
+                Now you can add additional data or make other map adjustments.*/
 
-        mapboxMap.setStyle(new Style.Builder().fromUri("mapbox://styles/mapbox/cjf4m44iw0uza2spb3q0a7s41")
+            // sets markers icon
+            style.addImage(ICON_ID, BitmapFactory.decodeResource(getResources(), R.drawable.treasure));
 
-// Add the SymbolLayer icon image to the map style
-                .withImage(ICON_ID, BitmapFactory.decodeResource(
-                        GameActivity.this.getResources(), R.drawable.treasure))
+            // set the source for the icons coordinates
+            style.addSource(geoJsonSource_markers_coordinates);
 
-// Adding a GeoJson source for the SymbolLayer icons.
-                .withSource(new GeoJsonSource(SOURCE_ID,
-                        FeatureCollection.fromFeatures(symbolLayerIconFeatureList)))
+            style.addLayer(new SymbolLayer(LAYER_ID, SOURCE_ID)
+                    .withProperties(
+                            PropertyFactory.iconImage(ICON_ID),
+                            PropertyFactory.iconIgnorePlacement(true),
+                            PropertyFactory.iconSize(0.05f),
+                            PropertyFactory.iconAllowOverlap(true)));
 
-// Adding the actual SymbolLayer to the map style. An offset is added that the bottom of the red
-// marker icon gets fixed to the coordinate, rather than the middle of the icon being fixed to
-// the coordinate point. This is offset is not always needed and is dependent on the image
-// that you use for the SymbolLayer icon.
-                .withLayer(new SymbolLayer(LAYER_ID, SOURCE_ID)
-                        .withProperties(PropertyFactory.iconImage(ICON_ID),
-                                PropertyFactory.iconSize(0.05f),
-                                iconAllowOverlap(true),
-                                iconIgnorePlacement(true),
-                                iconOffset(new Float[] {0f, -9f}))
-                ), new Style.OnStyleLoaded() {
-            @Override
-            public void onStyleLoaded(@NonNull Style style) {
-
-// Map is set up and the style has loaded. Now you can add additional data or make other map adjustments.
-
-
-            }
         });
     }
 
@@ -436,6 +435,33 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         mapView.onSaveInstanceState(outState);
+    }
+
+    /** Updates the treasure marker displayed on the map according to the data stored in "game_data".
+     * It uses the object "geoJsonSource_markers_coordinates" which contains the treasure markers coordinates.
+     * If we modify it, the treasure markers on the map are updated.*/
+    public void updateMap()
+    {
+
+        // We need to check if it's "null" because it is initialized only when the map has fully loaded
+        if (geoJsonSource_markers_coordinates == null)
+            return;
+
+        // creates a list containing the treasures coordinates extracted from game_data
+        List<Feature> features_treasures_coordinates = new ArrayList<>();
+
+        for(Treasure treasure : game_data.getTreasures())
+        {
+            double latitude, longitude;
+            latitude = treasure.getLatitude();
+            longitude = treasure.getLongitude();
+            Point point = Point.fromLngLat(longitude, latitude);
+            Feature feature = Feature.fromGeometry(point);
+            features_treasures_coordinates.add(feature);
+        }
+
+        // updates the position of the treasure icons on the map
+        geoJsonSource_markers_coordinates.setGeoJson(FeatureCollection.fromFeatures(features_treasures_coordinates));
     }
 }
 
