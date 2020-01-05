@@ -42,7 +42,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ch.epfl.esl.sportstracker.GameActivity" >
+        <activity
+            android:name="ch.epfl.esl.sportstracker.GameActivity"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

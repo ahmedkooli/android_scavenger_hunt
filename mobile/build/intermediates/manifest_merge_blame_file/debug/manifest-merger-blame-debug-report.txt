@@ -57,7 +57,7 @@
 32-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\0442b4a96af3f8f6acae8f81c3279320\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:18:22-73
 33
 34    <application
-34-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:15:5-66:19
+34-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:15:5-67:19
 35        android:allowBackup="true"
 35-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:16:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -74,199 +74,202 @@
 42        android:testOnly="true"
 43        android:theme="@style/AppTheme" >
 43-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:21:9-40
-44        <activity android:name="ch.epfl.esl.sportstracker.GameActivity" >
-44-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:9-27:20
-44-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:19-47
-45            <intent-filter>
-45-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:23:13-26:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:24:17-69
-46-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:24:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:25:17-77
-48-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:25:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity android:name="ch.epfl.esl.sportstracker.WaitForMapActivity" />
-51-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:28:9-56
-51-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:28:19-53
-52        <activity android:name="ch.epfl.esl.sportstracker.LoginActivity" >
-52-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:9-36:20
-52-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:19-48
-53
-54            <!--
-55            <intent-filter>
-56                <action android:name="android.intent.action.MAIN" />
-57                <category android:name="android.intent.category.LAUNCHER" />
-58            </intent-filter>
-59            -->
-60        </activity>
-61        <activity android:name="ch.epfl.esl.sportstracker.MapActivity" />
-61-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:37:9-49
-61-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:37:19-46
-62        <activity android:name="ch.epfl.esl.sportstracker.StartActivity" />
-62-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:38:9-51
-62-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:38:19-48
-63        <activity
-63-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:39:9-41:51
-64            android:name="ch.epfl.esl.sportstracker.MainActivity"
-64-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:40:13-41
-65            android:launchMode="singleInstance" />
-65-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:41:13-48
-66        <activity android:name="ch.epfl.esl.sportstracker.EditProfileActivity" />
-66-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:42:9-57
-66-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:42:19-54
-67
-68        <service android:name="ch.epfl.esl.sportstracker.WearService" >
-68-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:44:9-61:19
-68-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:44:18-45
-69            <intent-filter>
-69-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:45:13-52:29
-70                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
-70-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:46:17-87
-70-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:46:25-84
-71
-72                <data
-72-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:48:17-51:45
-73                    android:host="*"
-73-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:49:21-37
-74                    android:pathPrefix=""
-74-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:50:21-42
-75                    android:scheme="wear" />
-75-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:51:21-42
-76            </intent-filter>
-77            <intent-filter>
-77-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:53:13-60:29
-78                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
-78-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:54:17-91
-78-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:54:25-88
-79
-80                <data
-80-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:48:17-51:45
-81                    android:host="*"
-81-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:49:21-37
-82                    android:pathPrefix=""
-82-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:50:21-42
-83                    android:scheme="wear" />
-83-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:51:21-42
-84            </intent-filter>
-85        </service>
-86
-87        <meta-data
-87-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:63:9-65:40
-88            android:name="com.google.ar.core"
-88-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:64:13-46
-89            android:value="required" />
-89-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:65:13-37
-90
-91        <service
-91-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
-92            android:name="com.google.firebase.components.ComponentDiscoveryService"
-92-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
-93            android:directBootAware="true"
-93-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
-94            android:exported="false" >
-94-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
-95            <meta-data
-95-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-96                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-96-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
-98            <meta-data
-98-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
-99                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-99-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
-100                android:value="com.google.firebase.components.ComponentRegistrar" />
-100-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
-101            <meta-data
-101-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
-102                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-102-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
-103                android:value="com.google.firebase.components.ComponentRegistrar" />
-103-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
-104        </service>
-105
-106        <activity
-106-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
-107            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-107-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
-108            android:excludeFromRecents="true"
-108-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
-109            android:exported="true"
-109-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
-110            android:launchMode="singleTask"
-110-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
-111            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-111-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
-112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-112-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
-113
-114        <provider
-114-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
-115            android:name="com.google.firebase.provider.FirebaseInitProvider"
-115-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
-116            android:authorities="ch.epfl.esl.sportstracker.firebaseinitprovider"
-116-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
-117            android:exported="false"
-117-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
-118            android:initOrder="100" />
-118-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
-119
-120        <activity
-120-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-121-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-122            android:exported="false"
-122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-124
-125        <meta-data
-125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-126            android:name="com.google.android.gms.version"
-126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-127            android:value="@integer/google_play_services_version" />
-127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-128
-129        <provider
-129-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
-130            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-130-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
-131            android:authorities="ch.epfl.esl.sportstracker.mapboxtelemetryinitprovider"
-131-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
-132            android:exported="false"
-132-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
-133            android:initOrder="100" />
-133-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
-134
-135        <service
-135-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
-136            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
-136-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
-137            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-137-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
-138        <meta-data
-138-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:33:9-35:41
-139            android:name="com.google.ar.core.min_apk_version"
-139-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:34:13-62
-140            android:value="191106000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-140-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:35:13-38
-141        <activity
-141-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:37:9-43:80
-142            android:name="com.google.ar.core.InstallActivity"
-142-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:38:13-62
-143            android:configChanges="keyboardHidden|orientation|screenSize"
-143-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:39:13-74
-144            android:excludeFromRecents="true"
-144-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:40:13-46
-145            android:exported="false"
-145-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:41:13-37
-146            android:launchMode="singleTop"
-146-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:42:13-43
-147            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-147-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:43:13-77
-148    </application>
-149
-150</manifest>
+44        <activity
+44-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:9-28:20
+45            android:name="ch.epfl.esl.sportstracker.GameActivity"
+45-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:22:19-47
+46            android:screenOrientation="landscape" >
+46-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:23:13-50
+47            <intent-filter>
+47-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:24:13-27:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:25:17-69
+48-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:25:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:26:17-77
+50-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:26:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="ch.epfl.esl.sportstracker.WaitForMapActivity" />
+53-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:9-56
+53-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:29:19-53
+54        <activity android:name="ch.epfl.esl.sportstracker.LoginActivity" >
+54-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:30:9-37:20
+54-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:30:19-48
+55
+56            <!--
+57            <intent-filter>
+58                <action android:name="android.intent.action.MAIN" />
+59                <category android:name="android.intent.category.LAUNCHER" />
+60            </intent-filter>
+61            -->
+62        </activity>
+63        <activity android:name="ch.epfl.esl.sportstracker.MapActivity" />
+63-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:38:9-49
+63-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:38:19-46
+64        <activity android:name="ch.epfl.esl.sportstracker.StartActivity" />
+64-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:39:9-51
+64-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:39:19-48
+65        <activity
+65-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:40:9-42:51
+66            android:name="ch.epfl.esl.sportstracker.MainActivity"
+66-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:41:13-41
+67            android:launchMode="singleInstance" />
+67-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:42:13-48
+68        <activity android:name="ch.epfl.esl.sportstracker.EditProfileActivity" />
+68-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:43:9-57
+68-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:43:19-54
+69
+70        <service android:name="ch.epfl.esl.sportstracker.WearService" >
+70-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:45:9-62:19
+70-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:45:18-45
+71            <intent-filter>
+71-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:46:13-53:29
+72                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+72-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:47:17-87
+72-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:47:25-84
+73
+74                <data
+74-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:49:17-52:45
+75                    android:host="*"
+75-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:50:21-37
+76                    android:pathPrefix=""
+76-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:51:21-42
+77                    android:scheme="wear" />
+77-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:52:21-42
+78            </intent-filter>
+79            <intent-filter>
+79-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:54:13-61:29
+80                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+80-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:55:17-91
+80-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:55:25-88
+81
+82                <data
+82-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:49:17-52:45
+83                    android:host="*"
+83-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:50:21-37
+84                    android:pathPrefix=""
+84-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:51:21-42
+85                    android:scheme="wear" />
+85-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:52:21-42
+86            </intent-filter>
+87        </service>
+88
+89        <meta-data
+89-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:64:9-66:40
+90            android:name="com.google.ar.core"
+90-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:65:13-46
+91            android:value="required" />
+91-->C:\Users\leo\Desktop\android_scavenger_hunt\mobile\src\main\AndroidManifest.xml:66:13-37
+92
+93        <service
+93-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+97            <meta-data
+97-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+98-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\309af5493db5e93ea031ff9c1e3e6af1\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+101                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+101-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\236a9cdc0427d6bb201762c6d5c41cec\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+104                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+104-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+106        </service>
+107
+108        <activity
+108-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+109            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+109-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+110            android:excludeFromRecents="true"
+110-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+111            android:exported="true"
+111-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+112            android:launchMode="singleTask"
+112-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+113            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+113-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\3d15b82b4f6004c2ac650f2aac32db15\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+118            android:authorities="ch.epfl.esl.sportstracker.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+119            android:exported="false"
+119-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+120            android:initOrder="100" />
+120-->[com.google.firebase:firebase-common:19.2.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\ee369f29672ed01c9d9372cae12a41f0\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\48637dabfe2eff5f2e1cb5c193da976a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+130
+131        <provider
+131-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+132            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+132-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+133            android:authorities="ch.epfl.esl.sportstracker.mapboxtelemetryinitprovider"
+133-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+134            android:exported="false"
+134-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+135            android:initOrder="100" />
+135-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+136
+137        <service
+137-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+138            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+138-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+139            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+139-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+140        <meta-data
+140-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:33:9-35:41
+141            android:name="com.google.ar.core.min_apk_version"
+141-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:34:13-62
+142            android:value="191106000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+142-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:35:13-38
+143        <activity
+143-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:37:9-43:80
+144            android:name="com.google.ar.core.InstallActivity"
+144-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:38:13-62
+145            android:configChanges="keyboardHidden|orientation|screenSize"
+145-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:39:13-74
+146            android:excludeFromRecents="true"
+146-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:40:13-46
+147            android:exported="false"
+147-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:41:13-37
+148            android:launchMode="singleTop"
+148-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:42:13-43
+149            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+149-->[com.google.ar:core:1.14.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\5d0b4bb5368fa6bfa2a79b53458ad45e\core-1.14.0\AndroidManifest.xml:43:13-77
+150    </application>
+151
+152</manifest>

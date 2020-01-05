@@ -60,112 +60,111 @@
 32-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:13:9-39
 33        android:label="@string/app_name"
 33-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:14:9-41
-34        android:supportsRtl="true"
+34        android:supportsRtl="true" >
 34-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:15:9-35
-35        android:testOnly="true" >
-36        <uses-library
-36-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:16:9-18:39
-37            android:name="com.google.android.wearable"
-37-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:17:13-55
-38            android:required="true" />
-38-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:18:13-36
-39        <!--
-40               Set to true if your app is Standalone, that is, it does not require the handheld
-41               app to run.
-42        -->
-43        <meta-data
-43-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:23:9-25:36
-44            android:name="com.google.android.wearable.standalone"
-44-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:24:13-66
-45            android:value="true" />
-45-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:25:13-33
-46
-47        <activity
-47-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:27:9-35:20
-48            android:name="ch.epfl.esl.sportstracker.GameActivityWatch"
-48-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:28:13-46
-49            android:label="@string/app_name" >
-49-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:29:13-45
-50            <intent-filter>
-50-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:13-34:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:31:17-69
-51-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:31:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:33:17-77
-53-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:33:27-74
-54            </intent-filter>
-55        </activity>
-56
-57        <service android:name="ch.epfl.esl.sportstracker.WearService" >
-57-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:9-52:19
-57-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:18-45
-58            <intent-filter>
-58-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:13-44:29
-59                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
-59-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:17-87
-59-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:25-84
-60
-61                <data
-61-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:17-43:45
-62                    android:host="*"
-62-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-37
-63                    android:pathPrefix=""
-63-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
-64                    android:scheme="wear" />
-64-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:43:21-42
-65            </intent-filter>
-66            <intent-filter>
-66-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:13-51:29
-67                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
-67-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:46:17-91
-67-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:46:25-88
-68
-69                <data
-69-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:17-43:45
-70                    android:host="*"
-70-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-37
-71                    android:pathPrefix=""
-71-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
-72                    android:scheme="wear" />
-72-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:43:21-42
-73            </intent-filter>
-74        </service>
-75
-76        <activity
-76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-78            android:exported="false"
-78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-80
-81        <meta-data
-81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-82            android:name="com.google.android.gms.version"
-82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-83            android:value="@integer/google_play_services_version" />
-83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-84
-85        <provider
-85-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
-86            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-86-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
-87            android:authorities="ch.epfl.esl.sportstracker.mapboxtelemetryinitprovider"
-87-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
-88            android:exported="false"
-88-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
-89            android:initOrder="100" />
-89-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
-90
-91        <service
-91-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
-92            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
-92-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
-93            android:permission="android.permission.BIND_JOB_SERVICE" />
-93-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
-94    </application>
-95
-96</manifest>
+35        <uses-library
+35-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:16:9-18:39
+36            android:name="com.google.android.wearable"
+36-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:17:13-55
+37            android:required="true" />
+37-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:18:13-36
+38        <!--
+39               Set to true if your app is Standalone, that is, it does not require the handheld
+40               app to run.
+41        -->
+42        <meta-data
+42-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:23:9-25:36
+43            android:name="com.google.android.wearable.standalone"
+43-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:24:13-66
+44            android:value="true" />
+44-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:25:13-33
+45
+46        <activity
+46-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:27:9-35:20
+47            android:name="ch.epfl.esl.sportstracker.GameActivityWatch"
+47-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:28:13-46
+48            android:label="@string/app_name" >
+48-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:29:13-45
+49            <intent-filter>
+49-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:30:13-34:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:31:17-69
+50-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:31:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:33:17-77
+52-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:33:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <service android:name="ch.epfl.esl.sportstracker.WearService" >
+56-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:9-52:19
+56-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:37:18-45
+57            <intent-filter>
+57-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:38:13-44:29
+58                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+58-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:17-87
+58-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:39:25-84
+59
+60                <data
+60-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:17-43:45
+61                    android:host="*"
+61-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-37
+62                    android:pathPrefix=""
+62-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
+63                    android:scheme="wear" />
+63-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:43:21-42
+64            </intent-filter>
+65            <intent-filter>
+65-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:45:13-51:29
+66                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+66-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:46:17-91
+66-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:46:25-88
+67
+68                <data
+68-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:40:17-43:45
+69                    android:host="*"
+69-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:41:21-37
+70                    android:pathPrefix=""
+70-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:42:21-42
+71                    android:scheme="wear" />
+71-->C:\Users\leo\Desktop\android_scavenger_hunt\wear\src\main\AndroidManifest.xml:43:21-42
+72            </intent-filter>
+73        </service>
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\293b7d23f042aa131913b4991afa5f9d\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\c8c5d87d66df948cb69e9174194e5e35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+83
+84        <provider
+84-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+85            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+85-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+86            android:authorities="ch.epfl.esl.sportstracker.mapboxtelemetryinitprovider"
+86-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+87            android:exported="false"
+87-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+88            android:initOrder="100" />
+88-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+89
+90        <service
+90-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+91            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+91-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+92            android:permission="android.permission.BIND_JOB_SERVICE" />
+92-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\leo\.gradle\caches\transforms-2\files-2.1\05a8635a25526ac77dc74fcac15f9ec6\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+93    </application>
+94
+95</manifest>
