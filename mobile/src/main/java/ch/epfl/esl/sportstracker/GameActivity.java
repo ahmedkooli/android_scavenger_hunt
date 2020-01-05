@@ -38,6 +38,8 @@ import com.mapbox.geojson.Feature;
 import com.mapbox.geojson.FeatureCollection;
 import com.mapbox.geojson.Point;
 import com.mapbox.mapboxsdk.Mapbox;
+import com.mapbox.mapboxsdk.geometry.LatLng;
+import com.mapbox.mapboxsdk.geometry.LatLngBounds;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
@@ -306,10 +308,12 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         GameMap map_rolex = new GameMap();
         map_rolex.addTreasure(new ObjectAR(46.519039, 6.567473));
         map_rolex.addTreasure(new ObjectAR(46.518392, 6.566816));
-        //map_rolex.addTreasure(new ObjectAR(46.518924, 6.566398));
-        //map_rolex.addTreasure(new ObjectAR(46.518437, 6.568072));
-        map_rolex.addClue (new ObjectAR(46.518924, 6.566398));
-        map_rolex.addClue (new ObjectAR(46.518437, 6.568072));
+        map_rolex.addTreasure(new ObjectAR(46.518924, 6.566398));
+        map_rolex.addTreasure(new ObjectAR(46.518437, 6.568072));
+        map_rolex.addClue (new ObjectAR(46.518929, 6.566378));
+        map_rolex.addClue (new ObjectAR(46.518467, 6.568056));
+        // sets the bounds for the camera movement on the map
+        map_rolex.setBounds(46.517799, 6.567208, 46.518916, 6.569411);
         map_rolex.setName("Rolex Map");
 
         ObjectAR treasure_to_find = map_rolex.getTreasure(0);   // the treasure to find is the first in the list
@@ -427,9 +431,15 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         geoJsonSource_treasures_coordinates = new GeoJsonSource(SOURCE_ID);
         geoJsonSource_clues_coordinates = new GeoJsonSource(CLUES_SOURCE_ID);
 
+
         mapboxMap.setStyle(Style.OUTDOORS, style -> {
             /* This function runs after the style has been set. The map is set up and the style has loaded.
                 Now you can add additional data or make other map adjustments.*/
+            mapboxMap.setMinZoomPreference(16);
+
+            // sets the bounds for camera movement
+            if(game.getMap().getBoundsDefined() == true)
+                mapboxMap.setLatLngBoundsForCameraTarget(game.getMap().getLatLngBounds());
 
             // sets markers icon
             style.addImage(ICON_ID, BitmapFactory.decodeResource(getResources(), R.drawable.treasure));
