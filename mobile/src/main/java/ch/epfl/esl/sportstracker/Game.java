@@ -18,6 +18,7 @@ public class Game {
     private ObjectAR treasure_to_find;
     private long starting_time;
     private long time_limit;
+    private boolean is_running = false;
 
 
     public Game()
@@ -37,6 +38,7 @@ public class Game {
     public void setPlayerLocation(Location location)            { player.setLocation(location);}
     public void setHeartRate(int heart_rate)                    { player.setHeartRate(heart_rate);}
     public void setMap( GameMap map )                           { this.map = map; }
+    public void setIsRunning(boolean value)                     { this.is_running = value; }
 
 
     // getters
@@ -47,6 +49,7 @@ public class Game {
     public ObjectAR             getTreasureToFind()             { return treasure_to_find; }
     public long                 getTimeLimit()                  { return time_limit; }
     public long                 getStartingTime()               { return starting_time; }
+    public boolean              getIsRunning()                  { return is_running; }
 
 
     public long getRemainingTime()

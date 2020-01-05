@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ahmed\\Documents\\EPFL\\MA1\\Lab on Apps Development\\android_scavenger_hunt_map\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt2\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\5d0b4bb5368fa6bfa2a79b53458ad45e\\core-1.14.0\\res\\values-he\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,236,283,403,524",
-                        "endColumns": "45,46,119,120,93",
-                        "endOffsets": "235,282,402,523,617"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,105,156,280,405",
-                        "endColumns": "49,50,123,124,97",
-                        "endOffsets": "100,151,275,400,498"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\8ed6b4d50f369151e4ed60f6e4926af0\\jetified-mapbox-android-sdk-8.5.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\0442b4a96af3f8f6acae8f81c3279320\\jetified-mapbox-android-sdk-8.5.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "503,625,779,855,928,1001,1086,1173,1289,1392,1542,1656,1793",
                         "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
                         "endOffsets": "620,774,850,923,996,1081,1168,1284,1387,1537,1651,1788,1857"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\5d0b4bb5368fa6bfa2a79b53458ad45e\\core-1.14.0\\res\\values-he\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,236,283,403,524",
+                        "endColumns": "45,46,119,120,93",
+                        "endOffsets": "235,282,402,523,617"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,105,156,280,405",
+                        "endColumns": "49,50,123,124,97",
+                        "endOffsets": "100,151,275,400,498"
                     }
                 }
             ]

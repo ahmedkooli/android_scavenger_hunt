@@ -11,10 +11,13 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.os.Handler;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.support.wearable.activity.WearableActivity;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
@@ -31,8 +34,10 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
     final static int VIBRATION_DURATION = 200;   // duration of the vibration
     Vibrator vibratore;
 
-    private GameStatus game_status;
-    private int last_distance_from_treasure, distance_from_treasure;
+    private GameStatus game_status = new GameStatus();
+    private long last_remaining_time;
+    private int last_distance_from_treasure;
+    boolean timer_running = false;
     private TextView time_textview;
     private TextView heart_rate_textview;
     private TextView distance_from_treasure_textview;
@@ -71,12 +76,22 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
         broadcast_receiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
+
                 game_status = (GameStatus) intent.getParcelableExtra(GAME_INFO);
 
-                //String coordinates_text = "Player Latitude: " + game_status.getPlayer_location().getLatitude() + "\nLongitude: " + game_status.getPlayer_location().getLongitude();
-                //coordinates_textview.setText(coordinates_text);
+                if (timer_running == false) {
+                    timer_running = true;
+                    new CountDownTimer(game_status.getRemainingTime(), 1000) {
 
-               updateGame();
+                        public void onTick(long millisUntilFinished) {
+                            updateGame();
+                        }
+
+                        public void onFinish() {
+                            timer_running = false;
+                        }
+                    }.start();
+                }
             }
         };
 
@@ -86,32 +101,69 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
         setAmbientEnabled();
     }
 
+
+
     public void updateGame()
     {
+        long remaining_time = game_status.getRemainingTime();
+        Toast toast;
+
+        // builds a vibration pattern for alerts
+        long[] vibration_timings = {200, 100, 200};
+        int[] vibration_amplitudes = {VIBRATION_MAX_AMPLITUDE, 0, VIBRATION_MAX_AMPLITUDE};
+        VibrationEffect alert_vibration_pattern = VibrationEffect.createWaveform(vibration_timings, vibration_amplitudes, -1);
+
         // computes the distance from the treasure and displays it
-        distance_from_treasure = (int) game_status.getPlayer_location().distanceTo(game_status.getNextClueLocation());
+        int distance_from_treasure = (int) game_status.getPlayer_location().distanceTo(game_status.getNextClueLocation());
         distance_from_treasure_textview.setText( distance_from_treasure + " meters");
 
-        // checks if we are close to the treasure: if yes vibrates according to the distance
-        if (distance_from_treasure != last_distance_from_treasure)
-        {
-            last_distance_from_treasure = distance_from_treasure;
-            if (distance_from_treasure < VIBRATION_DISTANCE_THRESHOLD)
-            {
-                int vibration_amplitude =(int) (VIBRATION_MAX_AMPLITUDE * (VIBRATION_DISTANCE_THRESHOLD - distance_from_treasure)/VIBRATION_DISTANCE_THRESHOLD);
-                int vibration_interval = (int)(VIBRATION_MIN_INTERVAL + (VIBRATION_MAX_INTERVAL - VIBRATION_MIN_INTERVAL) * distance_from_treasure / VIBRATION_DISTANCE_THRESHOLD);
-                long[] vibration_timings = {VIBRATION_DURATION, vibration_interval};
-                int[] vibration_amplitudes = {vibration_amplitude, 0};
+        // displays remaining time on the screen
+        time_textview.setText(game_status.getRemainingTime() /1000 + "s");
 
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    VibrationEffect vibration_effect = VibrationEffect.createWaveform(vibration_timings, vibration_amplitudes, 0);
-                    vibratore.vibrate(vibration_effect);
-                }
-            }
+
+        // checks if we are getting close to the treasure: if yes vibrates
+        if ((distance_from_treasure < 50)&&(last_distance_from_treasure >= 50))
+        {
+            vibratore.vibrate(alert_vibration_pattern);
+            toast=Toast.makeText(this, "Quite close!!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        else if ((distance_from_treasure < 20)&&(last_distance_from_treasure >= 20))
+        {
+            vibratore.vibrate(alert_vibration_pattern);
+            toast=Toast.makeText(this, "Very close!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        else if ((distance_from_treasure < 10)&&(last_distance_from_treasure >= 10))
+        {
+            vibratore.vibrate(alert_vibration_pattern);
+            toast=Toast.makeText(this, "Almost there!", Toast.LENGTH_SHORT);
+            toast.show();
         }
 
-        time_textview.setText( game_status.getRemainingTime() /1000 + "s");
 
+        // sends alerts when time is running out
+        if ((remaining_time < 60000)&&(last_remaining_time >= 60000))    // checks for transition through 60 seconds
+        {
+            vibratore.vibrate(alert_vibration_pattern);
+            toast=Toast.makeText(this, "1 minute!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        else if ((remaining_time < 30000)&&(last_remaining_time >= 30000))
+        {
+            vibratore.vibrate(alert_vibration_pattern);
+            toast=Toast.makeText(this, "30 secs!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        else if ((remaining_time < 10000)&&(last_remaining_time >= 10000))
+        {
+            vibratore.vibrate(alert_vibration_pattern);
+            toast=Toast.makeText(this, "10 secs!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+
+        last_remaining_time = remaining_time;
+        last_distance_from_treasure = distance_from_treasure;
     }
 
 
@@ -127,7 +179,7 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
 
     @Override
     public void onDestroy() {
-            super.onDestroy();
+        super.onDestroy();
         local_broadcast_manager.unregisterReceiver(broadcast_receiver);
     }
 
@@ -164,13 +216,13 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
         switch (accuracy)
         {
             case SensorManager.SENSOR_STATUS_ACCURACY_LOW:
-                heart_rate_textview.setText("Hear rate sensor is calibrating... very low accuracy");
+                heart_rate_textview.setText("Low accuracy...");
                 break;
             case SensorManager.SENSOR_STATUS_ACCURACY_MEDIUM:
-                heart_rate_textview.setText("Hear rate sensor is calibrating... medium accuracy");
+                heart_rate_textview.setText("Medium accuracy...");
                 break;
             case SensorManager.SENSOR_STATUS_NO_CONTACT:
-                heart_rate_textview.setText("Please touch the sensor and stay still");
+                heart_rate_textview.setText("No contact");
                 break;
         }
     }

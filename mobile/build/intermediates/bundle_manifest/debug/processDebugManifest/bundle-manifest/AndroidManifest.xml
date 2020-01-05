@@ -42,16 +42,6 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="ch.epfl.esl.sportstracker.LoginActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="ch.epfl.esl.sportstracker.WaitForMapActivity" />
-        <activity
-            android:name="ch.epfl.esl.sportstracker.GameActivity"
-            android:screenOrientation="landscape" >
 
             <!--
             <intent-filter>
@@ -59,6 +49,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             -->
+        </activity>
+        <activity android:name="ch.epfl.esl.sportstracker.WaitForMapActivity" />
+        <activity
+            android:name="ch.epfl.esl.sportstracker.GameActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="ch.epfl.esl.sportstracker.MapActivity" />
         <activity android:name="ch.epfl.esl.sportstracker.StartActivity" />

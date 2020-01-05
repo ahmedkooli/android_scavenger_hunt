@@ -200,6 +200,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     {
         final Handler handler = new Handler();
         final int delay = 500; //milliseconds
+        game.setIsRunning(true);
 
         handler.postDelayed(new Runnable(){
             public void run(){
@@ -207,7 +208,8 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
                 updateGame();
                 updateMap();
 
-                handler.postDelayed(this, delay);
+                if(game.getIsRunning() == true)
+                    handler.postDelayed(this, delay);
             }
         }, delay);
     }
@@ -302,6 +304,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             {
                 // TODO: game finished
                 Toast.makeText(this, R.string.msg_game_finished, Toast.LENGTH_SHORT).show();
+                game.setIsRunning(false);
             }
 
 
@@ -673,6 +676,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onResume();
         startLocationUpdates();
         mapView.onResume();
+        startGameLoop();
     }
 
     @Override
@@ -685,6 +689,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onPause() {
         super.onPause();
         mapView.onPause();
+        game.setIsRunning(false);
     }
 
     @Override
@@ -697,6 +702,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onDestroy() {
         super.onDestroy();
         mapView.onDestroy();
+        game.setIsRunning(false);
     }
 
     @Override
@@ -705,6 +711,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onStop();
         stopLocationUpdates();
         mapView.onStop();
+        game.setIsRunning(false);
     }
 
     @Override
