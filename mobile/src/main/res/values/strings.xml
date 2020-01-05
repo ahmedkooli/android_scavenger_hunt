@@ -35,4 +35,6 @@
     <string name="one_minute_alert">You have one minute!</string>
     <string name="thirty_seconds_alert">You have 30 seconds left!</string>
     <string name="ten_seconds_alert">10 seconds!</string>
+    <string name="msg_treasure_fail">You didn\'t find the treasure in time!</string>
+    <string name="msg_game_finished">Game finished!</string>
 </resources>

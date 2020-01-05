@@ -61,14 +61,18 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final String SOURCE_ID = "SOURCE_ID";
     private static final String ICON_ID = "ICON_ID";
     private static final String LAYER_ID = "LAYER_ID";
+    private static final String CLUES_SOURCE_ID = "CLUES_SOURCE_ID";
+    private static final String CLUES_ICON_ID = "CLUES_ICON_ID";
+    private static final String CLUES_LAYER_ID = "CLUES_LAYER_ID";
     private MapView mapView;
-    private GeoJsonSource geoJsonSource_markers_coordinates;  // this object holds the position of the markers shown on the map (the icons of the little treasures)
+    private GeoJsonSource geoJsonSource_treasures_coordinates;  // this object holds the position of the markers shown on the map (the icons of the little treasures)
+    private GeoJsonSource geoJsonSource_clues_coordinates;
 
     // used for the Augmented Reality
     private ArFragment arFragment;
 
     // stores all game objects and settings
-    private GameData game_data = new GameData();
+    private Game game = new Game();
 
     // localization
     private FusedLocationProviderClient fused_location_client;
@@ -156,11 +160,11 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         }, delay);
     }
 
-    /** sends the current status of the game_data to the watch (only relevant information, we can customize the info sent by modifying the "toDataMap()" method in GameData )*/
+    /** sends the current status of the game to the watch (only relevant information, we can customize the info sent by modifying the "toDataMap()" method in Game )*/
     public void SendGameStatusToWatch()
     {
         // puts relevant data into a dataMap object
-        DataMap data = game_data.toDataMap();
+        DataMap data = game.toDataMap();
 
         // sends the data to the service in charge of the communication with the watch
         Intent intent = new Intent(GameActivity.this, WearService.class);
@@ -174,8 +178,8 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     /** FOR TESTING PURPOSES: creates a new treasure at the current location and sets it as the next treasure to find*/
     public void buttonClick(View view)
     {
-        Treasure new_treasure = new Treasure(game_data.getPlayerLocation());
-        game_data.setNext_treasure(new_treasure);
+        ObjectAR new_treasure = new ObjectAR(game.getPlayerLocation());
+        game.setTreasureToFind(new_treasure);
         SendGameStatusToWatch();
     }
 
@@ -210,7 +214,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onReceive(Context context, Intent intent) {
                 int heart_rate;
                 heart_rate = intent.getIntExtra(HEART_RATE, DEFAULT_HEART_RATE);
-                game_data.setHeartRate(heart_rate);
+                game.setHeartRate(heart_rate);
 
                 // FOR TESTING PURPOSES:
                 heart_rate_textview.setText("Heart rate: " + heart_rate);   // shows heart rate received from watch
@@ -227,7 +231,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         fused_location_client = new FusedLocationProviderClient(this);
         location_callback = new LocationCallback()
         {
-            //  when it receives a new location from the system it updates game_data status and sends it to the watch
+            //  when it receives a new location from the system it updates game status and sends it to the watch
             @Override
             public void onLocationResult(LocationResult location_result)
             {
@@ -236,20 +240,10 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
                     for(Location location : location_result.getLocations())
                     {
                         // updates player location
-                        game_data.setPlayerLocation(location);
+                        game.setPlayerLocation(location);
 
-                        // sends the updated game_data status to the watch
+                        // sends the updated game status to the watch
                         SendGameStatusToWatch();
-
-                        // FOR TESTING PURPOSES: displays player location on the screen
-                        String formatted_text;
-                        formatted_text = "Latitude: " + game_data.getPlayer().getLocation().getLatitude() +  "   Longitude: " + game_data.getPlayer().getLocation().getLongitude();
-                        text.setText("Player:  " + formatted_text);
-
-                        // shows on the screen the position of the next clue and its distance from the player
-                        formatted_text = "Latitude: " + game_data.getNext_treasure().getLocation().getLatitude() +  "   Longitude: " + game_data.getNext_treasure().getLocation().getLongitude();
-                        formatted_text += "    Distance: " + game_data.getPlayerDistanceFromTreasure();
-                        next_clue_location_textview.setText(formatted_text);
                     }
                 }
             }
@@ -303,29 +297,25 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     /** loads all information useful for the game from Firebase
-     * TO DO: LOAD PLAYER, OPPONENT, TREASURES AND SETTINGS FROM FIREBASE!!*/
+     * TO DO: LOAD PLAYER, OPPONENT, MAP AND SETTINGS FROM FIREBASE!!*/
     private void setupGame()
     {
-        //TO DO: load treasures, opponent and other info from Firebase!!! These are just dummy values
+        //TO DO: load map, opponent and other info from Firebase!!! These are just dummy values
         Player opponent = new Player();
-        ArrayList<Treasure> treasures = new ArrayList<>();
-        Treasure next_treasure = new Treasure();
-        long time_limit = System.currentTimeMillis() + 40000;
-        float threshold_distance = 0;
+        GameMap map_rolex = new GameMap();
+        map_rolex.addTreasure(new ObjectAR(46.519039, 6.567473));
+        map_rolex.addTreasure(new ObjectAR(46.518392, 6.566816));
+        //map_rolex.addTreasure(new ObjectAR(46.518924, 6.566398));
+        //map_rolex.addTreasure(new ObjectAR(46.518437, 6.568072));
+        map_rolex.setName("Rolex Map");
 
-        game_data.addOpponent(opponent);
-        game_data.setTreasures(treasures);
-        game_data.setNext_treasure(next_treasure);
-        game_data.setStarting_time(System.currentTimeMillis());
-        game_data.setTime_limit(time_limit);
-        game_data.setThreshold_distance(threshold_distance);
+        ObjectAR treasure_to_find = map_rolex.getTreasure(0);   // the treasure to find is the first in the list
 
-        /** DUMMY VALUES TO TEST THE MAP: puts some found treasures in the player's data*/
-        game_data.getPlayer().addTreasureFound(new Treasure(44.3, 8.15));
-        game_data.getPlayer().addTreasureFound(new Treasure(44.5, 8.35));
-        game_data.getPlayer().addTreasureFound(new Treasure(44.7, 8.55));
-        game_data.getPlayer().addTreasureFound(new Treasure(44.9, 8.95));
-        game_data.getPlayer().addTreasureFound(new Treasure(44.1, 8.75));
+        game.addOpponent(opponent);
+        game.setMap(map_rolex);
+        game.setTreasureToFind(treasure_to_find);
+        game.setStartingTime(System.currentTimeMillis());
+        game.setTimeLimit(System.currentTimeMillis() + 10000);
     }
 
 
@@ -334,39 +324,78 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     private long last_remaining_time;
     private void updateGame()
     {
-        long remaining_time = game_data.getRemainingTime();
+        Toast toast;
+        long remaining_time = game.getRemainingTime();
 
-        // FOR TESTING PURPOSES:
-        String time_text = "Remaining time: " + game_data.getRemainingTime() / 1000 + "   Elapsed: " + game_data.getElapsedTime() / 1000;
-        time_textView.setText(time_text);    // shows remaining and elapsed time
+        // shows time limit
+        String formatted_text = "Time remaining: " + game.getRemainingTime() / 1000 + "\nTime elapsed: " + game.getElapsedTime() / 1000;
+        time_textView.setText(formatted_text);    // shows remaining and elapsed time
+
+        // displays player location on the screen
+        formatted_text = "Player\n" + game.getPlayer().getLocation().getLatitude() +  " - " + game.getPlayer().getLocation().getLongitude();
+        text.setText(formatted_text);
+
+        // shows on the screen the position of the next treasure and its distance from the player
+        formatted_text = "Treasure\n" + game.getTreasureToFind().getLocation().getLatitude() +  " - " + game.getTreasureToFind().getLocation().getLongitude();
+        formatted_text += "\nDistance: " + (int)game.getPlayerDistanceFromTreasure();
+        next_clue_location_textview.setText(formatted_text);
 
         //  if the player founds a treasure
-        if (game_data.getPlayerDistanceFromTreasure() < game_data.getThreshold_distance() )
+        if (game.getPlayerDistanceFromTreasure() < game.threshold_distance )
         {
-            game_data.getPlayer().addTreasureFound(game_data.getNext_treasure());
+            game.getPlayer().addTreasureFound(game.getTreasureToFind());
+            updateMap();
             // TO DO: update Firebase
         }
 
         // sends alerts when time is running out
         if ((remaining_time < 60000)&&(last_remaining_time > 60000))    // checks for transition through 60 seconds
         {
-            Toast toast=Toast.makeText(this, R.string.one_minute_alert, Toast.LENGTH_LONG);
+            toast=Toast.makeText(this, R.string.one_minute_alert, Toast.LENGTH_LONG);
             toast.show();
         }
         else if ((remaining_time < 30000)&&(last_remaining_time > 30000))
         {
-            Toast toast=Toast.makeText(this, R.string.thirty_seconds_alert, Toast.LENGTH_LONG);
+            toast=Toast.makeText(this, R.string.thirty_seconds_alert, Toast.LENGTH_LONG);
             toast.show();
         }
         else if ((remaining_time < 10000)&&(last_remaining_time > 10000))
         {
-            Toast toast=Toast.makeText(this, R.string.ten_seconds_alert, Toast.LENGTH_SHORT);
+            toast=Toast.makeText(this, R.string.ten_seconds_alert, Toast.LENGTH_SHORT);
             toast.show();
         }
+        // if time is off sends message to player and sets the next treasure to find
+        if (remaining_time <= 0)
+        {
+            toast = Toast.makeText(this, R.string.msg_treasure_fail, Toast.LENGTH_SHORT);
+            toast.show();
 
+            // finds index of current treasure
+            int current_treasure_index = game.getMap().getTreasures().indexOf(game.getTreasureToFind());
+
+            // if there are still treasure after the current one:
+            if (current_treasure_index < game.getMap().getTreasuresCount() - 1)
+            {
+                // sets next treasure
+                ObjectAR next_treasure = game.getMap().getTreasure(current_treasure_index + 1);
+                game.setTreasureToFind(next_treasure);
+
+                // updates time limit according to distance from treasure
+                game.setTimeLimit( System.currentTimeMillis() + game.min_available_time +
+                                        (long)(game.bonus_ms_per_meter * game.getPlayerDistanceFromTreasure()));
+                remaining_time = game.getRemainingTime();
+            }
+            else
+            {
+                // TO DO: game finished
+                toast = Toast.makeText(this, R.string.msg_game_finished, Toast.LENGTH_SHORT);
+                toast.show();
+            }
+
+
+
+        }
         last_remaining_time = remaining_time;
-        // TO DO: map update should happen only if treasure was found
-        updateMap();
     }
 
     private void addModelToScene(Anchor anchor, ModelRenderable modelRenderable) {
@@ -393,7 +422,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
         // this object will contain the markers coordinates (can be modified and markers will update)
-        geoJsonSource_markers_coordinates = new GeoJsonSource(SOURCE_ID);
+        geoJsonSource_treasures_coordinates = new GeoJsonSource(SOURCE_ID);
 
         mapboxMap.setStyle(Style.OUTDOORS, style -> {
             /* This function runs after the style has been set. The map is set up and the style has loaded.
@@ -403,7 +432,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             style.addImage(ICON_ID, BitmapFactory.decodeResource(getResources(), R.drawable.treasure));
 
             // set the source for the icons coordinates
-            style.addSource(geoJsonSource_markers_coordinates);
+            style.addSource(geoJsonSource_treasures_coordinates);
 
             style.addLayer(new SymbolLayer(LAYER_ID, SOURCE_ID)
                     .withProperties(
@@ -412,6 +441,18 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
                             PropertyFactory.iconSize(0.05f),
                             PropertyFactory.iconAllowOverlap(true)));
 
+            // sets clues icon
+            style.addImage(CLUES_ICON_ID, BitmapFactory.decodeResource(getResources(), R.drawable.icon_clue));
+
+            // set the source for the icons coordinates
+            style.addSource(geoJsonSource_clues_coordinates);
+
+            style.addLayer(new SymbolLayer(CLUES_LAYER_ID, CLUES_SOURCE_ID)
+                    .withProperties(
+                            PropertyFactory.iconImage(CLUES_ICON_ID),
+                            PropertyFactory.iconIgnorePlacement(true),
+                            PropertyFactory.iconSize(0.05f),
+                            PropertyFactory.iconAllowOverlap(true)));
         });
     }
 
@@ -462,31 +503,50 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapView.onSaveInstanceState(outState);
     }
 
-    /** Updates the treasure marker displayed on the map according to the treasures stored in "game_data".
-     * It uses the object "geoJsonSource_markers_coordinates" which contains the treasure markers coordinates.
+    /** Updates the treasure marker displayed on the map according to the treasures stored in "game".
+     * It uses the object "geoJsonSource_treasures_coordinates" which contains the treasure markers coordinates.
      * If we modify it, the treasure markers on the map are updated.*/
     public void updateMap()
     {
 
         // We need to check if it's "null" because it is initialized only when the map has fully loaded
-        if (geoJsonSource_markers_coordinates == null)
-            return;
-
-        // creates a list containing the treasures coordinates extracted from game_data
-        List<Feature> features_treasures_coordinates = new ArrayList<>();
-
-        for(Treasure treasure : game_data.getPlayer().getTrasuresFound())
+        if (geoJsonSource_treasures_coordinates == null)
         {
-            double latitude, longitude;
-            latitude = treasure.getLatitude();
-            longitude = treasure.getLongitude();
-            Point point = Point.fromLngLat(longitude, latitude);
-            Feature feature = Feature.fromGeometry(point);
-            features_treasures_coordinates.add(feature);
+            // creates a list containing the treasures coordinates extracted from game
+            List<Feature> features_treasures_coordinates = new ArrayList<>();
+
+            for(ObjectAR treasure : game.getPlayer().getTrasuresFound())
+            {
+                double latitude, longitude;
+                latitude = treasure.getLatitude();
+                longitude = treasure.getLongitude();
+                Point point = Point.fromLngLat(longitude, latitude);
+                Feature feature = Feature.fromGeometry(point);
+                features_treasures_coordinates.add(feature);
+            }
+
+            // updates the position of the treasure icons on the map
+            geoJsonSource_treasures_coordinates.setGeoJson(FeatureCollection.fromFeatures(features_treasures_coordinates));
         }
 
-        // updates the position of the treasure icons on the map
-        geoJsonSource_markers_coordinates.setGeoJson(FeatureCollection.fromFeatures(features_treasures_coordinates));
+        if (geoJsonSource_clues_coordinates == null)
+        {
+            // creates a list containing the treasures coordinates extracted from game
+            List<Feature> features_clues_coordinates = new ArrayList<>();
+
+            for(ObjectAR clue : game.getMap().getClues())
+            {
+                double latitude, longitude;
+                latitude = clue.getLatitude();
+                longitude = clue.getLongitude();
+                Point point = Point.fromLngLat(longitude, latitude);
+                Feature feature = Feature.fromGeometry(point);
+                features_clues_coordinates.add(feature);
+            }
+
+            // updates the position of the treasure icons on the map
+            geoJsonSource_clues_coordinates.setGeoJson(FeatureCollection.fromFeatures(features_clues_coordinates));
+        }
     }
 }
 
