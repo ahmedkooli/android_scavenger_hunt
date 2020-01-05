@@ -119,7 +119,7 @@ public class GameActivityWatch extends WearableActivity implements SensorEventLi
 
         // displays remaining time on the screen
         time_textview.setText(game_status.getRemainingTime() /1000 + "s");
-
+        time_textview.setText(game_status.getTimeLimit() +"");
 
         // checks if we are getting close to the treasure: if yes vibrates
         if ((distance_from_treasure < 50)&&(last_distance_from_treasure >= 50))

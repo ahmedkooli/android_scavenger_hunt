@@ -227,6 +227,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         /*map_espla.addClue (new ObjectAR(46.520227, 6.565506));
         map_espla.addClue (new ObjectAR(46.5203823, 6.565993));
         map_espla.addClue (new ObjectAR(46.520420, 6.565785));*/
+        map_espla.setBounds(46.519932, 6.565631, 46.520369, 6.566208);
         map_espla.setName("Esplanade");
 
         ObjectAR treasure_to_find = map_espla.getTreasure(0);   // the treasure to find is the first in the list
@@ -640,6 +641,12 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapboxMap.setStyle(Style.OUTDOORS, style -> {
             /* This function runs after the style has been set. The map is set up and the style has loaded.
                 Now you can add additional data or make other map adjustments.*/
+
+            mapboxMap.setMinZoomPreference(16);
+
+            // sets the bounds for camera movement
+            if(game.getMap().getBoundsDefined() == true)
+                mapboxMap.setLatLngBoundsForCameraTarget(game.getMap().getLatLngBounds());
 
             // sets markers icon
             style.addImage(ICON_ID, BitmapFactory.decodeResource(getResources(), R.drawable.treasure));
