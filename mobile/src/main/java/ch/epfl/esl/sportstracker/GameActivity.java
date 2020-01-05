@@ -227,6 +227,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         /*map_espla.addClue (new ObjectAR(46.520227, 6.565506));
         map_espla.addClue (new ObjectAR(46.5203823, 6.565993));
         map_espla.addClue (new ObjectAR(46.520420, 6.565785));*/
+        /** RAJOUTE PAR LEO*/
         map_espla.setBounds(46.519932, 6.565631, 46.520369, 6.566208);
         map_espla.setName("Esplanade");
 
@@ -262,11 +263,11 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         next_clue_location_textview.setText(formatted_text);
 
         //  if the player founds a treasure
-        /*if (game.getPlayerDistanceFromTreasure() < game.threshold_distance)
+        if (game.getPlayerDistanceFromTreasure() < game.threshold_distance)
         {
             game.getPlayer().addTreasureFound(game.getTreasureToFind());
             // TO DO: update Firebase
-        }*/
+        }
 
         // sends alerts when time is running out
         if ((remaining_time < 60000)&&(last_remaining_time > 60000))    // checks for transition through 60 seconds
@@ -292,14 +293,14 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             // if there are still treasure after the current one:
             if (treasureIndex < game.getMap().getTreasuresCount() - 1)
             {
-                /*// sets next treasure
-                ObjectAR next_treasure = game.getMap().getTreasure(current_treasure_index + 1);
-                game.setTreasureToFind(next_treasure);*/
+                // sets next treasure
+                /*ObjectAR next_treasure = game.getMap().getTreasure(current_treasure_index + 1);
+                game.setTreasureToFind(next_treasure);
 
                 // updates time limit according to distance from treasure
                 game.setTimeLimit( System.currentTimeMillis() + game.min_available_time +
                         (long)(game.bonus_ms_per_meter * game.getPlayerDistanceFromTreasure()));
-                remaining_time = game.getRemainingTime();
+                remaining_time = game.getRemainingTime();*/
             }
             else
             {
@@ -518,6 +519,9 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     {
         //ObjectAR new_treasure = new ObjectAR(game.getPlayerLocation());
         //game.setTreasureToFind(new_treasure);
+        game.getPlayer().addTreasureFound(new ObjectAR(46.520227, 6.565506));
+        game.getPlayer().addTreasureFound(new ObjectAR(46.5203823, 6.565993));
+        game.getPlayer().addTreasureFound (new ObjectAR(46.520420, 6.565785));
         SendGameStatusToWatch();
     }
 
@@ -642,11 +646,13 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             /* This function runs after the style has been set. The map is set up and the style has loaded.
                 Now you can add additional data or make other map adjustments.*/
 
+            /** RAJOUTE PAR LEO*/
             mapboxMap.setMinZoomPreference(16);
 
             // sets the bounds for camera movement
             if(game.getMap().getBoundsDefined() == true)
                 mapboxMap.setLatLngBoundsForCameraTarget(game.getMap().getLatLngBounds());
+            /** END*/
 
             // sets markers icon
             style.addImage(ICON_ID, BitmapFactory.decodeResource(getResources(), R.drawable.treasure));
