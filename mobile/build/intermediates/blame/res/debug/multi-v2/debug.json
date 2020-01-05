@@ -1045,22 +1045,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\values-v26_values-v26.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\values-v26\\values-v26.xml",
-                    "from": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,896",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,984"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
             "map": [
                 {
@@ -1146,6 +1130,22 @@
                         "startOffsets": "3313,3424,3620,3750,3864,4101,4234,4385,4737,4976,5090,5290,5423,5644,5850,5951,6044",
                         "endColumns": "110,195,129,113,236,132,150,147,238,113,199,132,220,205,100,92,108",
                         "endOffsets": "3419,3615,3745,3859,4096,4229,4380,4528,4971,5085,5285,5418,5639,5845,5946,6039,6148"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\res\\merged\\debug\\values-v26_values-v26.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
                     }
                 }
             ]

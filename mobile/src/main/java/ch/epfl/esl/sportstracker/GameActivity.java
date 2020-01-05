@@ -154,6 +154,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void run(){
 
                 updateGame();
+                updateMap();
 
                 handler.postDelayed(this, delay);
             }
@@ -307,6 +308,8 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         map_rolex.addTreasure(new ObjectAR(46.518392, 6.566816));
         //map_rolex.addTreasure(new ObjectAR(46.518924, 6.566398));
         //map_rolex.addTreasure(new ObjectAR(46.518437, 6.568072));
+        map_rolex.addClue (new ObjectAR(46.518924, 6.566398));
+        map_rolex.addClue (new ObjectAR(46.518437, 6.568072));
         map_rolex.setName("Rolex Map");
 
         ObjectAR treasure_to_find = map_rolex.getTreasure(0);   // the treasure to find is the first in the list
@@ -344,7 +347,6 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
         if (game.getPlayerDistanceFromTreasure() < game.threshold_distance )
         {
             game.getPlayer().addTreasureFound(game.getTreasureToFind());
-            updateMap();
             // TO DO: update Firebase
         }
 
@@ -423,6 +425,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
         // this object will contain the markers coordinates (can be modified and markers will update)
         geoJsonSource_treasures_coordinates = new GeoJsonSource(SOURCE_ID);
+        geoJsonSource_clues_coordinates = new GeoJsonSource(CLUES_SOURCE_ID);
 
         mapboxMap.setStyle(Style.OUTDOORS, style -> {
             /* This function runs after the style has been set. The map is set up and the style has loaded.
@@ -510,7 +513,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
     {
 
         // We need to check if it's "null" because it is initialized only when the map has fully loaded
-        if (geoJsonSource_treasures_coordinates == null)
+        if (geoJsonSource_treasures_coordinates != null)
         {
             // creates a list containing the treasures coordinates extracted from game
             List<Feature> features_treasures_coordinates = new ArrayList<>();
@@ -529,7 +532,7 @@ public class GameActivity extends AppCompatActivity implements OnMapReadyCallbac
             geoJsonSource_treasures_coordinates.setGeoJson(FeatureCollection.fromFeatures(features_treasures_coordinates));
         }
 
-        if (geoJsonSource_clues_coordinates == null)
+        if (geoJsonSource_clues_coordinates != null)
         {
             // creates a list containing the treasures coordinates extracted from game
             List<Feature> features_clues_coordinates = new ArrayList<>();
