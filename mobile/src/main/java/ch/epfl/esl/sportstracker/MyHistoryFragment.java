@@ -134,14 +134,14 @@ public class MyHistoryFragment extends Fragment {
         super.onResume();
         databaseRef = FirebaseDatabase.getInstance().getReference();
         mFirebaseRecordingListener = new MyFirebaseRecordingListener();
-        databaseRef.child("profiles").child(userID).child("recordings").addValueEventListener
+        databaseRef.child("profiles").child(userID).child("Achievement").addValueEventListener
                 (mFirebaseRecordingListener);
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        databaseRef.child("profiles").child(userID).child("recordings").removeEventListener
+        databaseRef.child("profiles").child(userID).child("Achievement").removeEventListener
                 (mFirebaseRecordingListener);
     }
 
@@ -167,17 +167,6 @@ public class MyHistoryFragment extends Fragment {
                         .inflate(row_layout, parent, false);
             }
 
-            SimpleDateFormat formatter =
-                    new SimpleDateFormat("dd/MM/yyyy hh:mm:ss", Locale.getDefault());
-            ((TextView) row.findViewById(R.id.exerciseType))
-                    .setText(getItem(position).exerciseType);
-            ((TextView) row.findViewById(R.id.exerciseDateTime))
-                    .setText(formatter
-                            .format(new Date(getItem(position).exerciseDateTime)));
-            ((TextView) row.findViewById(R.id.exerciseDevice))
-                    .setText(getItem(position).exerciseSmartWatch ? "yes" : "no");
-            ((TextView) row.findViewById(R.id.exerciseDevice2))
-                    .setText(getItem(position).exerciseHRbelt ? "yes" : "no");
 
             return row;
         }
@@ -189,13 +178,7 @@ public class MyHistoryFragment extends Fragment {
             adapter.clear();
             for (final DataSnapshot rec : dataSnapshot.getChildren()) {
                 final Recording recording = new Recording();
-                recording.exerciseType = rec.child("exercise_type").getValue().toString();
-                recording.exerciseDateTime = Long.parseLong(rec.child("datetime").getValue()
-                        .toString());
-                recording.exerciseSmartWatch = Boolean.parseBoolean(rec.child("switch_watch")
-                        .getValue().toString());
-                recording.exerciseHRbelt = Boolean.parseBoolean(rec.child("switch_hr_belt")
-                        .getValue().toString());
+                recording.map = rec.child("map").getValue().toString();
                 adapter.add(recording);
             }
         }

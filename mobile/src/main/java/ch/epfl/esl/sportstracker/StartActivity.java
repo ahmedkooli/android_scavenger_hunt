@@ -1,5 +1,6 @@
 package ch.epfl.esl.sportstracker;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +8,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StatFs;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,10 +33,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static ch.epfl.esl.sportstracker.MyProfileFragment.USER_ID;
+
 public class StartActivity extends AppCompatActivity {
 
     private ArrayList<String> data = new ArrayList<>();
     private String userID;
+    private ValueEventListener UserStatusListener;
+    private ChildEventListener NewUserListener;
+    private DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("profiles");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,43 +61,75 @@ public class StartActivity extends AppCompatActivity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(StartActivity.this, "List item was clicked at " + position, Toast.LENGTH_SHORT).show();
             }
         });
 
-        DatabaseReference dref = FirebaseDatabase.getInstance().getReference();
-        dref.addChildEventListener(new ChildEventListener() {
+
+         NewUserListener = new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
-                data.remove(map);
-                adapter.notifyDataSetChanged();
+                String newuserID = dataSnapshot.getKey();
+                if (!(userID.equals(newuserID))){
+                    Map<String, Object> info = (Map<String, Object>) dataSnapshot.getValue();
+                    String username = (String) info.get("username");
+                    Boolean game_status = (Boolean) info.get("game status");
+                    if (!game_status) {
+                        if (data.contains(username)) {
+                            data.remove(username);
+                            adapter.notifyDataSetChanged();
+                        }
+                    } else {
+                        if (!(data.contains(username)) && !(userID.equals(newuserID))) {
+                            data.add(username);
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
             }
+
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                Intent intent = getIntent();
-                finish();
-                startActivity(intent);
+                String newuserID = dataSnapshot.getKey();
+                if (!(userID.equals(newuserID))){
+                    Map<String, Object> info = (Map<String, Object>) dataSnapshot.getValue();
+                    String username = (String) info.get("username");
+                    Boolean game_status = (Boolean) info.get("game status");
+                    if (!game_status) {
+                        if (data.contains(username)) {
+                            data.remove(username);
+                            adapter.notifyDataSetChanged();
+                        }
+                    } else {
+                        if (!data.contains(username) && userID != newuserID) {
+                            data.add(username);
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
             }
+
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-                Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
-                data.remove(map);
+                Map<String, Object> info = (Map<String, Object>) dataSnapshot.getValue();
+                String username = (String) info.get("username");
+                data.remove(username);
                 adapter.notifyDataSetChanged();
             }
+
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
             }
+
             @Override
             public void onCancelled(DatabaseError databaseError) {
             }
-        });
+        };
+        ref.addChildEventListener(NewUserListener);
     }
 
     private void generateListContent() {
-        final DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("profiles");
-        ref.addListenerForSingleValueEvent(
-                new ValueEventListener() {
+
+         UserStatusListener = new ValueEventListener() {
                     @Override
                     public void onDataChange(final DataSnapshot dataSnapshot) {
                         if (userID != null) {
@@ -106,9 +145,6 @@ public class StartActivity extends AppCompatActivity {
 
                             if (userMatched.contains("Request")) {
                                 // Handle received request
-                                Toast.makeText(StartActivity.this, "List item was clicked at "
-                                                + userMatched.replace("Request ", ""),
-                                        Toast.LENGTH_SHORT).show();
 
                                 // Build an AlertDialog
                                 AlertDialog.Builder builder = new AlertDialog.Builder(StartActivity.this);
@@ -140,11 +176,23 @@ public class StartActivity extends AppCompatActivity {
                                                 ref.child(userID).child("matched player")
                                                         .setValue("Waiting " +
                                                                 userMatched.replace("Request ", ""));
-
                                                 break;
 
                                             case DialogInterface.BUTTON_NEGATIVE:
-                                                // MATCHED PLAYER : declined --> TOAST : DECLINED --> MATCHED PLAYER : none
+                                                // User clicked the No button
+
+                                                // Matched player for requested user
+                                                final String keyUserMatched2 = getKey(dataSnapshot,
+                                                        "username",
+                                                        userMatched.replace("Request ", ""));
+
+                                                ref.child(keyUserMatched2).child("matched player")
+                                                        .setValue("None");
+
+
+                                                // Matched player for active user
+                                                ref.child(userID).child("matched player")
+                                                        .setValue("None");
                                                 break;
                                         }
                                     }
@@ -169,6 +217,8 @@ public class StartActivity extends AppCompatActivity {
                                 // Start WaitForMapActivity
                                 Intent intentMapWait = new Intent(StartActivity.this, WaitForMapActivity.class);
                                 intentMapWait.putExtra("USER_ID", userID);
+                                ref.removeEventListener(UserStatusListener);
+                                ref.removeEventListener(NewUserListener);
                                 startActivity(intentMapWait);
                                 finish();
                             }
@@ -182,6 +232,8 @@ public class StartActivity extends AppCompatActivity {
                                 // Start MapActivity
                                 Intent intentMapChoice = new Intent(StartActivity.this, MapActivity.class);
                                 intentMapChoice.putExtra("USER_ID", userID);
+                                ref.removeEventListener(UserStatusListener);
+                                ref.removeEventListener(NewUserListener);
                                 startActivity(intentMapChoice);
                                 finish();
                             }
@@ -200,10 +252,9 @@ public class StartActivity extends AppCompatActivity {
                     public void onCancelled(DatabaseError databaseError) {
                         //handle databaseError
                     }
-                });
+                };
+        ref.addValueEventListener(UserStatusListener);
 
-        //ne marche plus si on l'enlève!!!
-        data.add("");
     }
 
 
@@ -221,9 +272,6 @@ public class StartActivity extends AppCompatActivity {
             }
         }
 
-        for(int i = 0; i < activeUsers.size(); i++) {
-            data.add(activeUsers.get(i));
-        }
     }
 
 
@@ -324,14 +372,11 @@ public class StartActivity extends AppCompatActivity {
                                                         //handle databaseError
                                                     }
                                                 });
-
-
-
-
                                         break;
 
                                     case DialogInterface.BUTTON_NEGATIVE:
                                         // User clicked the No button
+                                        // Nothing to do
                                         break;
                                 }
                             }
@@ -370,7 +415,71 @@ public class StartActivity extends AppCompatActivity {
         TextView title;
         Button button;
     }
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setTitle("Too scared?")
+                .setMessage("Are you sure you want to exit?")
+                .setNegativeButton(android.R.string.no, null)
+                .setPositiveButton(android.R.string.yes, (arg0, arg1) -> {
+                    Intent intentStartGame = new Intent(StartActivity.this, MainActivity.class);
+                    intentStartGame.putExtra("USER_ID", userID);
+                    intentStartGame.putExtra("USER_ID", userID);
 
+                    Intent intent = getIntent();
+                    userID = intent.getExtras().getString(USER_ID);
+
+                    // Initialize Firebase
+                    final DatabaseReference ref = FirebaseDatabase.getInstance().getReference("profiles/"+userID);
+                    ref.addListenerForSingleValueEvent(
+                            new ValueEventListener() {
+                                @Override
+                                public void onDataChange(final DataSnapshot dataSnapshot) {
+                                    ref.child("matched player").setValue("None");
+                                    ref.child("map").setValue("None");
+                                    ref.child("game status").setValue(false);
+                                }
+
+                                @Override
+                                public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                }
+                            });
+
+                    startActivity(intentStartGame);
+                    finish();
+                }).create().show();
+    }
+
+
+
+
+    // deal with the home button
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (!this.isFinishing()) {
+            Intent intent = getIntent();
+            userID = intent.getExtras().getString(USER_ID);
+
+            // Initialize Firebase
+            final DatabaseReference ref = FirebaseDatabase.getInstance().getReference("profiles/"+userID);
+            ref.addListenerForSingleValueEvent(
+                    new ValueEventListener() {
+                        @Override
+                        public void onDataChange(final DataSnapshot dataSnapshot) {
+                            ref.child("matched player").setValue("None");
+                            ref.child("map").setValue("None");
+                            ref.child("game status").setValue(false);
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                        }
+                    });
+        }
+    }
     private String getKey(DataSnapshot ds, String parameter, String value){
 
         String key = "";

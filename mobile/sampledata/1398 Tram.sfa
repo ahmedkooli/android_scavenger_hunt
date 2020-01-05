@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Mat',
+      parameters: [
+        {
+          baseColor: '1398 Tram',
+        },
+        {
+          baseColorTint: [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/1398 Tram.obj',
+    name: '1398 Tram',
+    recenter: 'root',
+    scale: 0.025957999999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\1398 Tram.png',
+      name: '1398 Tram',
+      pipeline_name: '1398 Tram.png',
+    },
+  ],
+  version: '0.54:2',
+}

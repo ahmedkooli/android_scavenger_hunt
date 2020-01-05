@@ -81,6 +81,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     intent.putExtra(MyProfileFragment.USER_ID, userID);
+                    profileRef.removeEventListener(this);
                     startActivity(intent);
                 }
             }

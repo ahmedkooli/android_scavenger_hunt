@@ -32,13 +32,13 @@ public class WaitForMapActivity extends AppCompatActivity {
         nDialog.setCancelable(true);
         nDialog.show();
 
-        final DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("profiles");
-        ref.addListenerForSingleValueEvent(
+        final DatabaseReference ref = FirebaseDatabase.getInstance().getReference("profiles/"+userID+"/map");
+        ref.addValueEventListener(
                 new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                        String map = dataSnapshot.child(userID).child("map").getValue(String.class);
+                        String map = dataSnapshot.getValue(String.class);
 
                         if (!map.equals("None")) {
                             // Start GameActivity
@@ -46,6 +46,11 @@ public class WaitForMapActivity extends AppCompatActivity {
 
                             Intent intentStartGame = new Intent(WaitForMapActivity.this, GameActivity
                                     .class);
+                            Bundle extras = new Bundle();
+                            extras.putString("USER_ID",userID);
+                            extras.putString("MAP",map);
+                            ref.removeEventListener(this);
+                            intentStartGame.putExtras(extras);
                             startActivity(intentStartGame);
                         }
                     }

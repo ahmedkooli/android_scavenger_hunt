@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /** This class holds the objects and the settings of the game, it is used to keep game's data tidy and clean **/
 public class Game {
-    public static final float threshold_distance = 2;   // distance below which a treasure is considered to be found (meters)
+    public static final float threshold_distance = 500;   // distance below which a treasure is considered to be found (meters)
     public static final int min_available_time = 5000;     // min time available to find a treasure, if treasure is far a bonus is added
     public static final int bonus_ms_per_meter = 50;       // a bonus of tot milliseconds for each meter is added according to the distance of the player from the treasure
 

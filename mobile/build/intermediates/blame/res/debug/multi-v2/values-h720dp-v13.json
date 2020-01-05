@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\leo\\Desktop\\android_scavenger_hunt\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\ahmed\\Documents\\EPFL\\MA1\\Lab on Apps Development\\android_scavenger_hunt_map\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\leo\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\bdb10c4cc5dd6f2377a6361b27420f06\\appcompat-1.1.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -80,10 +80,10 @@ public class MyProfileFragment extends Fragment {
                 String photo = dataSnapshot.child("photo").getValue(String.class);
 
                 userProfile = new Profile(user_db, password_db);
-                userProfile.password = password_db;
                 userProfile.photoPath = photo;
 
                 setUserImageAndProfileInfo();
+                profileRef.removeEventListener(this);
             }
 
             @Override
@@ -104,7 +104,12 @@ public class MyProfileFragment extends Fragment {
         switch (item.getItemId()) {
             case R.id.action_edit:
                 Intent intentEditProfile = new Intent(getActivity(), EditProfileActivity.class);
-                intentEditProfile.putExtra(USER_ID, userID);
+                Bundle extras = new Bundle();
+                extras.putString("USER_ID",userID);
+                extras.putString("USERNAME",userProfile.username);
+                extras.putString("PASSWORD",userProfile.password);
+                extras.putString("PHOTOPATH",userProfile.photoPath);
+                intentEditProfile.putExtras(extras);
                 startActivityForResult(intentEditProfile, EDIT_PROFILE_INFO);
                 break;
         }

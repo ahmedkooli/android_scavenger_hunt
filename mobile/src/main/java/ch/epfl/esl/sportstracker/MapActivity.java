@@ -45,30 +45,6 @@ public class MapActivity extends AppCompatActivity {
                 setMapNameAndImage(MAP.RLC);
             }
         });
-
-        final DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("profiles");
-        ref.addListenerForSingleValueEvent(
-                new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        // Start GameActivity
-                        String mapSelected = dataSnapshot.child(userID).child("map").getValue(String.class);
-
-                        if (mapSelected.equals("Parc Scientifique") ||
-                               mapSelected.equals("Rolex Learning Center")){
-                            Log.w("ds","oncreate");
-
-                            Intent intentStartGame = new Intent(MapActivity.this, GameActivity.class);
-                            startActivity(intentStartGame);
-                            finish();
-                        }
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                    }
-                });
     }
 
     private void setMapNameAndImage(MAP map) {
@@ -95,7 +71,7 @@ public class MapActivity extends AppCompatActivity {
 
     public void onStartGame(View view) {
         final DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("profiles");
-        ref.addListenerForSingleValueEvent(
+        ref.addValueEventListener(
                 new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -132,6 +108,15 @@ public class MapActivity extends AppCompatActivity {
                             Log.w("ds","equals");
 
                             Intent intentStartGame = new Intent(MapActivity.this, GameActivity.class);
+                            Bundle extras = new Bundle();
+                            extras.putString("USER_ID",userID);
+                            extras.putString("MAP",mapSelected);
+                            intentStartGame.putExtras(extras);
+                            extras = intentStartGame.getExtras();
+                            Log.v("avanr", String.valueOf(extras));
+                            userID = extras.getString("USER_ID");
+                            Log.v("avanr userid", userID);
+                            ref.removeEventListener(this);
                             startActivity(intentStartGame);
                             finish();
                         }

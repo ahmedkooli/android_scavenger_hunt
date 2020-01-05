@@ -66,12 +66,22 @@ dependencies {
 }
 
 
-sceneform.asset('sampledata/model.obj',
+sceneform.asset('sampledata/1398 Tram.obj',
         'default',
-        'sampledata/model.sfa',
-        'src/main/assets/model')
+        'sampledata/1398 Tram.sfa',
+        'src/main/assets/1398 Tram')
 
-sceneform.asset('sampledata/Arrow.obj',
+sceneform.asset('sampledata/Andy.obj',
         'default',
-        'sampledata/Arrow.sfa',
-        'src/main/assets/Arrow')
+        'sampledata/Andy.sfa',
+        'src/main/assets/Andy')
+
+sceneform.asset('sampledata/beer.obj',
+        'default',
+        'sampledata/beer.sfa',
+        'src/main/assets/beer')
+
+sceneform.asset('sampledata/trash.obj',
+        'default',
+        'sampledata/trash.sfa',
+        'src/main/assets/trash')

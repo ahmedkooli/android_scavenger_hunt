@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,7 +26,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.MutableData;
 import com.google.firebase.database.Transaction;
-import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -61,7 +61,28 @@ public class EditProfileActivity extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent.getExtras() != null) {
             userID = intent.getExtras().getString(MyProfileFragment.USER_ID);
-            fetchDataFromFirebase();
+            String password = intent.getExtras().getString("PASSWORD");
+            String username = intent.getExtras().getString("USERNAME");
+            String photopath = intent.getExtras().getString("PHOTOPATH");
+            userProfile = new Profile(username,password);
+            userProfile.photoPath = photopath;
+            final TextView usernameTextView = findViewById(R.id.editUsername);
+            final TextView passwordTextView = findViewById(R.id.editPassword);
+            usernameTextView.setText(username);
+            passwordTextView.setText(password);
+            //  Reference to an image file in Firebase Storage
+            StorageReference storageRef = FirebaseStorage.getInstance().getReferenceFromUrl
+                    (photopath);
+            storageRef.getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+                @Override
+                public void onSuccess(byte[] bytes) {
+                    final Bitmap selectedImage = BitmapFactory.decodeByteArray(bytes, 0,
+                            bytes.length);
+                    ImageView imageView = findViewById(R.id.userImage);
+                    imageView.setImageBitmap(selectedImage);
+                }
+            });
+
         }
 
         if (savedInstanceState != null) {
@@ -85,43 +106,7 @@ public class EditProfileActivity extends AppCompatActivity {
         outState.putParcelable("ImageUri", savedImageUri);
     }
 
-    private void fetchDataFromFirebase() {
-        final TextView usernameTextView = findViewById(R.id.editUsername);
-        final TextView passwordTextView = findViewById(R.id.editPassword);
 
-        profileGetRef.child(userID).addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String user_db = dataSnapshot.child("username").getValue(String.class);
-                String password_db = dataSnapshot.child("password").getValue(String.class);
-                String photo = dataSnapshot.child("photo").getValue(String.class);
-
-                usernameTextView.setText(user_db);
-                passwordTextView.setText(password_db);
-
-                //  Reference to an image file in Firebase Storage
-                StorageReference storageRef = FirebaseStorage.getInstance().getReferenceFromUrl
-                        (photo);
-                storageRef.getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-                    @Override
-                    public void onSuccess(byte[] bytes) {
-                        final Bitmap selectedImage = BitmapFactory.decodeByteArray(bytes, 0,
-                                bytes.length);
-                        ImageView imageView = findViewById(R.id.userImage);
-                        imageView.setImageBitmap(selectedImage);
-                    }
-                });
-
-
-                profileRef = profileGetRef.child(userID);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
