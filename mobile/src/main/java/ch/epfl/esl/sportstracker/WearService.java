@@ -174,30 +174,14 @@ public class WearService extends WearableListenerService {
 
                 assert uri.getPath() != null;
                 switch (uri.getPath()) {
-                    case BuildConfig.W_example_path_asset:
-                        // Extract the data behind the key you know contains data
-                        Asset asset = dataMapItem.getDataMap().getAsset(BuildConfig
-                                .W_some_other_key);
-                        intent = new Intent
-                                ("REPLACE_THIS_WITH_A_STRING_OF_ACTION_PREFERABLY_DEFINED_AS_A_CONSTANT_IN_TARGET_ACTIVITY");
-                        bitmapFromAsset(asset, intent,
-                                "REPLACE_THIS_WITH_A_STRING_OF_IMAGE_PREFERABLY_DEFINED_AS_A_CONSTANT_IN_TARGET_ACTIVITY");
-                        break;
-                    case BuildConfig.W_example_path_datamap:
-                        // Extract the data behind the key you know contains data
-                        int integer = dataMapItem.getDataMap().getInt(BuildConfig.W_a_key);
-                        ArrayList<Integer> arraylist = dataMapItem.getDataMap()
-                                .getIntegerArrayList(BuildConfig.W_some_other_key);
-                        for (Integer i : arraylist)
-                            Log.i(TAG, "Got integer " + i + " from array list");
-                        intent = new Intent
-                                ("REPLACE_THIS_WITH_A_STRING_OF_ANOTHER_ACTION_PREFERABLY_DEFINED_AS_A_CONSTANT_IN_TARGET_ACTIVITY");
-                        intent.putExtra
-                                ("REPLACE_THIS_WITH_A_STRING_OF_INTEGER_PREFERABLY_DEFINED_AS_A_CONSTANT_IN_TARGET_ACTIVITY", integer);
-                        intent.putExtra
-                                ("REPLACE_THIS_WITH_A_STRING_OF_ARRAYLIST_PREFERABLY_DEFINED_AS_A_CONSTANT_IN_TARGET_ACTIVITY", arraylist);
+                    case BuildConfig.W_send_heart_rate:
+                        DataMap data = dataMapItem.getDataMap().getDataMap(BuildConfig.W_send_heart_rate);
+                        int heart_rate = data.getInt(BuildConfig.W_heart_rate);
+
+                        // sends heart rate to GameActivity through an intent
+                        intent = new Intent(GameActivity.RETRIEVE_WATCH_INFO);
+                        intent.putExtra(GameActivity.HEART_RATE, heart_rate);
                         LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
-                        break;
                     default:
                         Log.v(TAG, "Data changed for unhandled path: " + uri);
                         break;
